@@ -18,7 +18,7 @@
 
 <u></u>
 
-上次分享的影讯app，非常受大家的好评
+上次分享的影讯app，非常受大家的好评，具体情况点击[影讯APP](https://mp.weixin.qq.com/s/lpwQj5-spAtFf5ice2USYg)
 
 为了能够各平台都能通用，就将影讯app的很多功能都提取出来了并转换成了链接
 >>>
