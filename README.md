@@ -40,5 +40,5 @@
 
 赶快关注我的公众号吧，关注微信公众号“读书之趣”
 
-![](https://github.com/fangsxin/dushu/blob/master/img/%E8%AF%BB%E4%B9%A6%E4%B9%8B%E8%B6%A3%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg?raw=true)
+![](https://github.com/fangsxin/dushu/blob/master/img/%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%85%B3%E6%B3%A8.png?raw=true)
 
