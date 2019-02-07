@@ -5,13 +5,13 @@
 咱们重点先上链接
 
 
-> 【[全网影院](https://fangsxin.github.io/2018/12/29/全网影院/)】
+> 【[全网影院](https://github.com/fangsxin/dushu/blob/master/%E5%BD%B1%E8%AE%AF/%E5%85%A8%E7%BD%91%E5%BD%B1%E9%99%A2/README.md)】
 >
-> 【[全网音乐](https://fangsxin.github.io/2018/12/29/全网音乐/)】
+> 【[全网音乐](https://github.com/fangsxin/dushu/blob/master/%E5%BD%B1%E8%AE%AF/%E5%85%A8%E7%BD%91%E9%9F%B3%E4%B9%90/README.md)】
 >
-> 【[直播](https://fangsxin.github.io/2018/12/29/直播/)】
+> 【[直播](https://github.com/fangsxin/dushu/blob/master/%E5%BD%B1%E8%AE%AF/%E7%9B%B4%E6%92%AD/README.md)】
 >
-> 【[看书](https://fangsxin.github.io/2018/12/29/看书/)】
+> 【[看书](https://github.com/fangsxin/dushu/blob/master/%E5%BD%B1%E8%AE%AF/%E7%9C%8B%E4%B9%A6/README.md)】
 
 
 
