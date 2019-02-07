@@ -1,3 +1,3 @@
  影讯
  ---
-![](https://github.com/fangsxin/test/blob/master/hello/01.jpg)
+![](https://gitee.com/fanganxin/yx/blob/master/图床/微信截图_20190102192615.png)
