@@ -15,8 +15,6 @@
 
 
 
-![](https://github.com/fangsxin/dushu/blob/master/img/%E9%A3%8E%E6%99%AF.png?raw=true)
-
 
 <u></u>
 
@@ -38,7 +36,7 @@
 
 >>>关注微信公众号“读书之趣”
 在公众号对话框点击-全部文章-影讯即可打开此页面
-![](\img\影讯1.jpg)
+
 
 赶快关注我的公众号吧，关注微信公众号“读书之趣”
 
