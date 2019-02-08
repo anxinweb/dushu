@@ -13,8 +13,9 @@
 >
 > 【[看书](https://github.com/fangsxin/dushu/blob/master/%E5%BD%B1%E8%AE%AF/%E7%9C%8B%E4%B9%A6/README.md)】
 >
-> 【[每日美文]( http://wq.hizmz.com/wxplug/mw/all.php?t=ynq)6Q49279493)41obnq)6Qob*10c278296m0q)41fphtk)6Qwmedbeyp )】
-
+> 【[每日美文](http://t.cn/EcJ0V9r)】
+>
+> 【关于](https://mp.weixin.qq.com/s/8873ZXHF6NTy-aT9ObE7sA)】
 <u></u>
 
 上次分享的影讯app，非常受大家的好评，具体情况点击[影讯APP](https://mp.weixin.qq.com/s/lpwQj5-spAtFf5ice2USYg)
