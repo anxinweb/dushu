@@ -7,9 +7,9 @@
 <meta http-equiv="Cache-Control" content="no-siteapp">
 <link rel="icon" type="image/png" href="/Public/img/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/Public/img/app-icon72x72@2x.png">
-<title>随机显示一句诗词_蛙蛙在线工具</title>
-<meta name="keywords" content="一句诗词">
-<meta name="description" content="随机显示一句诗词，使用今日诗词提供的API，根据不同地点、时间、节日、季节、天气、景观、城市进行智能推荐一句诗词。">
+<title>在线成语词典,成语查询工具_蛙蛙在线工具</title>
+<meta name="keywords" content="成语查询工具,在线成语词典,在线成语大全">
+<meta name="description" content="在线成语查询工具，成语词典大全包含5万多条成语积累，能方便的查询汉语中常用的成语，除此之外还能查询常见的中文谚语。">
 <link href="/Public/css/wawa.min.css?v=1.77" rel="stylesheet">
 </head>
 
@@ -23,7 +23,7 @@
 	<div class="menu">
 		<div class="link"><a href="http://www.iamwawa.cn/">首页</a></div><dl id="cate-1">
 			<dt class="current">文字工具</dt>
-			<dd style="display:block;"><ul><li id="tool-1"><a href="/daxiaoxie.html">英文字母大小写转换</a></li><li id="tool-2"><a href="/jianfanti.html">中文简繁体转换工具</a></li><li id="tool-3"><a href="/pinyin.html">中文转拼音注音工具</a></li><li id="tool-23"><a href="/chengyu.html">成语查询工具</a></li><li id="tool-31"><a href="/fanyi.html">在线翻译工具</a></li><li id="tool-35"><a href="/ocr.html">OCR图片识别文字工具</a></li><li id="tool-39" class="current"><a href="/shici.html">一句诗词</a></li></ul></dd>
+			<dd style="display:block;"><ul><li id="tool-1"><a href="/daxiaoxie.html">英文字母大小写转换</a></li><li id="tool-2"><a href="/jianfanti.html">中文简繁体转换工具</a></li><li id="tool-3"><a href="/pinyin.html">中文转拼音注音工具</a></li><li id="tool-23" class="current"><a href="/chengyu.html">成语查询工具</a></li><li id="tool-31"><a href="/fanyi.html">在线翻译工具</a></li><li id="tool-35"><a href="/ocr.html">OCR图片识别文字工具</a></li><li id="tool-39"><a href="/shici.html">一句诗词</a></li></ul></dd>
 		</dl><dl id="cate-2">
 			<dt>便民查询</dt>
 			<dd><ul><li id="tool-8"><a href="/shouji.html">手机号码归属地查询</a></li><li id="tool-18"><a href="/dianhua.html">常用电话列表</a></li><li id="tool-19"><a href="/quhao.html">区号邮编查询工具</a></li><li id="tool-20"><a href="/shenfenzheng.html">身份证所在地查询</a></li><li id="tool-26"><a href="/riqi.html">日期计算工具</a></li><li id="tool-33"><a href="/huangli.html">老黄历在线查询</a></li><li id="tool-34"><a href="/saoraodianhua.html">骚扰电话查询</a></li><li id="tool-38"><a href="/geshui.html">个人所得税计算器</a></li></ul></dd>
@@ -49,15 +49,24 @@
 <div class="content">
 	<div class="content-body">
 		<div class="tool-title clearfix">
-			<h1 class="tool-name">一句诗词</h1>
-			<button id="btn-like" disabled="disabled"><i class="icon-heart"></i> <span id="like-txt">已赞</span> (<span id="like-num">80</span>)</button>
+			<h1 class="tool-name">成语查询工具</h1>
+			<button id="btn-like"><i class="icon-heart"></i> <span id="like-txt">喜欢</span> (<span id="like-num">156</span>)</button>
 		</div>
-		<div class="tool-form" style="text-align:center;">
-			<p id="sentence" style="white-space: nowrap; display: inline-block; font-size: 24.75px;">昨夜闲潭梦落花，可怜春半不还家。</p>
-			<div class="btn-list" style="padding-top:2rem;">
-				<input class="btn btn-success" style="border-radius: 15px;" id="change" onclick="change();" type="button" value="换一句">
+		<div class="tool-form">
+			<input type="text" name="word" size="60" class="form-input" id="tool-text" placeholder="请输入成语" onkeydown="if(event.keyCode==13){search_chengyu();return false;}">
+			<div class="btn-list">
+				<input class="btn btn-success" onclick="search_chengyu();" type="button" value="查询">&nbsp;
+				<input class="btn btn-error" type="reset" value="清空">
 			</div>
+			<div id="tool-result" class="hide"></div>
+			<div id="validate-loading" class="hide"><i class="icon-spin5 animate-spin"></i></div>
+			<div id="validate-result" class="alert alert-error hide"></div>
 		</div>
+		<div class="tool-info">
+				    <h5>相关知识</h5>
+			<p>成语（chengyu,idioms）是我国汉字语言词汇中一部分定型的词组或短句。成语有固定的结构形式和固定的说法，表示一定的意义，在语句中是作为一个整体来应用的。成语有很大一部分是从古代相承沿用下来的，在用词方面往往不同于现代汉语它代表了一个故事或者典故。 成语又是一种现成的话，跟习用语、谚语相近，但是也略有区别。成语大都出自书面，属于文语性质的。其次在语言形式上，成语是约定俗成的四字结构，字面不能随意更换；成语在语言表达中有生动简洁、 形象鲜明的作用。</p>
+		   </div>
+   
 	</div>
 	<div class="footer">
 	<div class="footer-nav"><a href="/">返回首页</a><span>-</span><a href="/about.html">关于蛙蛙工具</a><span>-</span><a href="/feedback.html">意见反馈</a><span>-</span><a href="/support.html"><i class="icon-coffee" style="color:#d9534f"></i> 打赏一下</a><span>-</span><a href="https://www.iamwawa.cn/blog/5-weiapp.html"><i class="icon-wechat" style="color:#4caf50"></i> 小程序</a></div>
@@ -67,8 +76,8 @@
     <a rel="nofollow" href="#top" title="回顶部"><i class="icon-up-big"></i></a>
 </div>
 </div>
-<script src="https://hm.baidu.com/hm.js?ca368c21c1d2aa60e6f63d598c4cb02a"></script><script type="text/javascript">var APP='/';var PUBLIC='/Public/';var URL='/home/shici/';var TID=39;</script>
+<script src="https://hm.baidu.com/hm.js?ca368c21c1d2aa60e6f63d598c4cb02a"></script><script type="text/javascript">var APP='/';var PUBLIC='/Public/';var URL='/home/chengyu/';var TID=23;</script>
 <script src="/Public/js/public.min.js?v=2018100103"></script>
-<script src="/Public/js/tool/shici.js?v=1.4"></script>
+<script src="/Public/js/tool/chengyu.js?v=1.2"></script>
 
-<div id="qb-sougou-search" style="display: none; opacity: 0;"><p>搜索</p><p class="last-btn">复制</p><iframe src=""></iframe></div></body></html>
+</body></html>
