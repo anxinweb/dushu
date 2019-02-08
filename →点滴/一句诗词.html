@@ -1,89 +1,153 @@
-<embed src="http://www.3464.com/tools/MP3Player/CuMp3PlayerV1.swf?musicfile=http://www.3464.com/tools/HideMp3Player/3464.mp3&musictitle=%D2%F4%C0%D6%B1%EA%CC%E2" width="446" height="68" quality="high" swLiveConnect=true name="CuPlayer" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" allowfullscreen="true"
-/></embed>
+<html class=" "><head lang="zh-CN">
+    <meta charset="utf-8">
+    <!--[if IE]>
+                <script type="text/javascript">
+                alert("提醒：此应用不支持IE浏览器（包括最新版的IE也不支持该网页），请使用其他浏览器重试（QQ浏览器、360浏览器、Chrome、Firefox等主流浏览器）。")
+            </script>
+        <![endif]-->
+        <meta http-equiv="content-language" content="zh-CN">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <meta name="renderer" content="webkit">
+        <meta name="referrer" content="never">
+        <meta name="robots" content="noarchive">
+        <meta http-equiv="Cache-Control" content="no-siteapp">
+        <title>墨灵音乐</title>
+        <meta name="Keywords" content="墨灵音乐,Mli音乐,growio音乐,墨林音乐,墨灵电台,墨灵MV">
+        <link rel="search" type="application/opensearchdescription+xml" href="https://music.mli.im/opensearch.xml" title="墨灵音乐 Music">
+        <meta name="Description" content="「 墨灵音乐官网 」 全新的网页音乐体验、完整的MV视觉体验。 震撼的音乐可视化功能以及随身电台。">
+        <meta name="theme-color" content="#29d">
+        <link href="https://musicstatic.procy.cn/static/cn/2.4.0.css" rel="stylesheet">
+        <script src="https://zz.bdstatic.com/linksubmit/push.js" async=""></script><script src="https://hm.baidu.com/hm.js?919f04f20310343db1dc6f7f0569441e" async=""></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+            var url = window.location.href;
+            url.indexOf("https") < 0 && (url = url.replace("http:", "https:"), window.location.replace(url)), "/music.web" != window.location.pathname && (window.location.href = "https://music.mli.im/?back_from=others-path"), "music.mli.im" != window.location.host && (window.location.href = "https://music.mli.im");
+        </script>
+        <meta name="referrer" content="no-referrer">
+        <link rel="stylesheet" href="https://musicstatic.procy.cn/static/public/1.css">
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-73781240-11"></script>
+        <script>
+            function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-73781240-11");
+        </script>
+        <link rel="stylesheet" type="text/css" href="https://lib.baomitu.com/font-awesome/5.7.0/web-fonts-with-css/css/fontawesome-all.min.css">
+    <script src="https://music.mli.im/static/public/jquery.mousewheel.min.js"></script><link rel="stylesheet" href="https://musicstatic.procy.cn/static/public/theme/default/layer.css?v=3.1.1" id="layuicss-layer"></head>
 
+    <body style="background-image: url(&quot;https://ww1.sinaimg.cn/large/007iUjdily1fxzp15rf9oj30r414nwf1.jpg&quot;);">
+        <div id="blur-img"></div>
+        <div class="header">
+            <div class="pcnotice">
+                <div id="notice">
+                    <a href="https://music.mli.im" target="_blank"><i class="fas fa-home"></i>首页 </a>
+                    <!-- <a id="about_us"><i class="fas fa-users"></i>关于</a> -->
+                    <a id="setting" onclick="normal_set()"><i class="fas fa-cog"></i>设置 </a>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="container">
+                <div class="btn-bar">
+                    <div class="btn-box" id="btn-area"><span class="btn" data-action="player" hidden=""><i class="fas fa-headphones"></i> 播放中</span><span class="btn active" data-action="playing"><i class="fas fa-list-ul"></i> 列表</span><span class="btn" data-action="sheet" id="like-lists"><i class="far fa-heart"></i> 歌单</span><span class="btn" data-action="search" id="bd-search-collect"><i class="fas fa-search"></i> 搜索</span></div>
+                </div>
+                <div class="data-area">
+                    <div id="sheet" class="data-box" hidden=""><div class="sheet-item" data-no="1">    <img class="sheet-cover" src="//i.imgur.com/jBoLM5y.png">    <p class="sheet-name">当前列表</p></div><div class="sheet-item" data-no="2">    <img class="sheet-cover" src="//i.imgur.com/BUxq25Q.png">    <p class="sheet-name">播放历史</p></div><div class="sheet-item" data-no="3">    <img class="sheet-cover" src="https://ws4.sinaimg.cn/large/006mWAHKgy1fw7l4ksyq2j308c08cweb.jpg">    <p class="sheet-name">我的最爱</p></div><div class="sheet-item" data-no="4">    <img class="sheet-cover" src="https://p4.music.126.net/GhhuF6Ep5Tq9IEvLsyCN7w==/18708190348409091.jpg">    <p class="sheet-name">云音乐热歌榜</p></div><div class="sheet-item" data-no="5">    <img class="sheet-cover" src="https://p4.music.126.net/N2HO5xfYEqyQ8q6oxCw8IQ==/18713687906568048.jpg">    <p class="sheet-name">云音乐新歌榜</p></div><div class="sheet-item" data-no="6">    <img class="sheet-cover" src="https://p4.music.126.net/N2whh2Prf0l8QHmCpShrcQ==/19140298416347251.jpg">    <p class="sheet-name">华语金曲榜</p></div><div class="sheet-item" data-no="7">    <img class="sheet-cover" src="https://p3.music.126.net/Op-a3I7Iy-amnSlzhVcWxw==/18814842976746273.jpg">    <p class="sheet-name">「高质量英文歌」让你单曲循环的英文歌</p></div><div class="sheet-item" data-no="8">    <img class="sheet-cover" src="https://p4.music.126.net/ygxAeYxxXPONww041tylMw==/5996736418028563.jpg">    <p class="sheet-name">轻音乐精选</p></div><span id="sheet-bar"><div class="clear-fix"></div><div id="user-login" class="sheet-title-bar"> <span class="login-btn login-in"><i class="far fa-hand-point-right"></i>点击同步自己的网易云歌单</span><span onclick="normal_set()">/ 播放器设置<i class="fas fa-cog"></i></span></div></span></div>
+                    <div id="main-list" class="music-list data-box" style="display: block;"><div class="list-item list-head">    <span class="music-album">      专辑    </span>    <span class="auth-name">      歌手    </span>    <span class="music-name">      歌曲    </span></div><div class="list-item text-center" id="list-foot">没有歌曲,请 <i class="fas fa-search"></i>搜索/<i class="fas fa-list-ul"></i>歌单 来播放</div></div>
+                </div>
+                <div class="player" id="player" style="display: none;">
+                    <div class="cover"><img src="https://musicstatic.procy.cn/static/pic/jBoLM5y.png" class="music-cover" id="music-cover"></div>
+                    <div class="lyric">
+                        <ul id="lyric"></ul>
+                    </div>
+                    <div id="music-info"></div>
+                </div>
+            </div>
+        </div>
+        <script>jstime = 1549603110</script>
+        <div class="footer">
+            <div class="container">
+                <div class="con-btn">
+                    <a href="javascript:;" class="player-btn btn-prev fas fa-step-backward"></a>
+                    <a href="javascript:;" class="player-btn btn-play far fa-play-circle"></a>
+                    <a href="javascript:;" class="player-btn btn-next fas fa-step-forward"></a>
+                    <a href="javascript:;" class="player-btn btn-order"></a>
+                </div>
+                <div class="vol">
+                    <div class="quiet">
+                        <a href="javascript:;" class="player-btn btn-quiet"><i class="fas fa-volume-up" style="color: #FFFFFF;font-size: 14px"></i></a>
+                    </div>
+                    <div class="volume">
+                        <div class="volume-box">
+                            <div id="volume-progress" class="mkpgb-area"><div class="mkpgb-bar"></div><div class="mkpgb-cur" style="width: 100%;"></div><div class="mkpgb-dot" style="left: 100%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-box">
+                        <div id="music-progress" class="mkpgb-area mkpgb-locked"><div class="mkpgb-bar"></div><div class="mkpgb-cur" style="width: 0%;"></div><div class="mkpgb-dot" style="left: 0%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m_b_menu weui-tabbar" style="position: fixed;">
+            <a class="weui-tabbar__item" id="m_b_menu_a" onclick="m_b_menu(1)">
+                <span style="display: inline-block;position: relative;">
+                    <img src="https://musicstatic.procy.cn/static/pic/hRHlO4g.png" class="weui-tabbar__icon" style="width: 24px;height: 24px;margin-bottom: 1px;margin-top: 2px">
+                </span>
+                <p class="weui-tabbar__label">歌词</p>
+            </a>
+            <a class="weui-tabbar__item weui-bar__item_on" id="m_b_menu_b" onclick="m_b_menu(2)">
+                <img src="https://musicstatic.procy.cn/static/pic/AguAcPX.png" class="weui-tabbar__icon">
+                <p class="weui-tabbar__label">列表</p>
+            </a>
+            <a class="weui-tabbar__item" id="m_b_menu_c" onclick="m_b_menu(3)">
+                <span style="display: inline-block;position: relative;">
+                    <img src="https://musicstatic.procy.cn/static/pic/V9s8loc.png" class="weui-tabbar__icon">
+                    <span class="weui-badge weui-badge_dot" style="position: absolute;top: 0;right: -6px;"></span>
+                </span>
+                <p class="weui-tabbar__label">歌单</p>
+            </a>
+            <a class="weui-tabbar__item" id="m_b_menu_d" onclick="m_b_menu(4)">
+                <img src="https://musicstatic.procy.cn/static/pic/Mbv5C9Q.png" class="weui-tabbar__icon">
+                <p class="weui-tabbar__label">搜索</p>
+            </a>
+            <a class="weui-tabbar__item" id="m_b_menu_e" onclick="normal_set()">
+                <img src="https://musicstatic.procy.cn/static/pic/Ud7aGF0.png" class="weui-tabbar__icon">
+                <p class="weui-tabbar__label">设置</p>
+            </a>
+            
+        </div>
+        <ul class="contextmenu">
+            <li>
+                <a id="MouseRightPlay"><i class="fas fa-play"></i> 暂停/播放歌曲</a>
+            </li>
+            <li>
+                <a id="MouseRightMusicinfo"><i class="fas fa-ellipsis-h"></i> 查看歌曲信息/下载</a>
+            </li>
+            <li>
+                <a onclick="location.reload() "><i class="fas fa-redo"></i> 刷新播放器</a>
+            </li>
+            <li>
+                <a onclick="normal_set()"><i class="fas fa-cog"></i> 调整设置</a>
+            </li>
+            <li>
+                <a href="https://wj.qq.com/s/2713693/1805" target="_blank" rel="noreferrer"><i class="far fa-comment-alt"></i> 问题反馈</a>
+            </li>
+        </ul>
+    
+    <script src="https://musicstatic.procy.cn/static/public/3.js"></script>
+    <script src="https://musicstatic.procy.cn/static/public/layer.min.js"></script>
+    <script type="text/javascript">
+    "3.1.1"==layer.v||alert("网页加载失败，无法正常运行！请重新加载 或 清除浏览器缓存 或 更换浏览器 或 更换网络！");
+    </script>
+    <script src="https://musicstatic.procy.cn/static/public/md5.min.js"></script>
+    <script src="https://musicstatic.procy.cn/static/public/js.cookie.min.js"></script>
+    <script type="text/javascript">
+    "function"==typeof Cookies||alert("网页加载失败，无法正常运行！请重新加载 或 清除浏览器缓存 或 更换浏览器 或 更换网络！");
+    </script>
+    <script src="https://musicstatic.procy.cn/static/cn/4.3.4.js"></script>
+    <script type="text/javascript">
+    "function"==typeof DesktopMouseRight||alert("网页加载失败，无法正常运行！请重新加载 或 清除浏览器缓存 或 更换浏览器 或 更换网络！");
+    </script>
+    <script>
+        var _hmt=_hmt||[];!function(){var t=document.createElement("script");t.src="https://hm.baidu.com/hm.js?919f04f20310343db1dc6f7f0569441e",t.async=!0;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(),function(){var t=document.createElement("script");window.location.protocol.split(":")[0];t.src="https://zz.bdstatic.com/linksubmit/push.js",t.async=!0;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}();
+    </script>
 
-
-
-<html><head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<meta name="format-detection" content="telephone=no">
-<meta name="renderer" content="webkit">
-<meta http-equiv="Cache-Control" content="no-siteapp">
-<link rel="icon" type="image/png" href="/Public/img/favicon.png">
-<link rel="apple-touch-icon-precomposed" href="/Public/img/app-icon72x72@2x.png">
-<title>在线成语词典,成语查询工具_蛙蛙在线工具</title>
-<meta name="keywords" content="成语查询工具,在线成语词典,在线成语大全">
-<meta name="description" content="在线成语查询工具，成语词典大全包含5万多条成语积累，能方便的查询汉语中常用的成语，除此之外还能查询常见的中文谚语。">
-<link href="/Public/css/wawa.min.css?v=1.77" rel="stylesheet">
-</head>
-
-<body>
-<div class="header">
-	<div class="logo">
-		<a href="/" title="返回蛙蛙工具首页"><img alt="蛙蛙工具" src="/Public/img/logo.png" srcset="/Public/img/logo@2x.png 2x"></a>
-		<h1>蛙蛙工具</h1>
-		<p>便捷的在线工具网站</p>
-	</div>
-	<div class="menu">
-		<div class="link"><a href="http://www.iamwawa.cn/">首页</a></div><dl id="cate-1">
-			<dt class="current">文字工具</dt>
-			<dd style="display:block;"><ul><li id="tool-1"><a href="/daxiaoxie.html">英文字母大小写转换</a></li><li id="tool-2"><a href="/jianfanti.html">中文简繁体转换工具</a></li><li id="tool-3"><a href="/pinyin.html">中文转拼音注音工具</a></li><li id="tool-23" class="current"><a href="/chengyu.html">成语查询工具</a></li><li id="tool-31"><a href="/fanyi.html">在线翻译工具</a></li><li id="tool-35"><a href="/ocr.html">OCR图片识别文字工具</a></li><li id="tool-39"><a href="/shici.html">一句诗词</a></li></ul></dd>
-		</dl><dl id="cate-2">
-			<dt>便民查询</dt>
-			<dd><ul><li id="tool-8"><a href="/shouji.html">手机号码归属地查询</a></li><li id="tool-18"><a href="/dianhua.html">常用电话列表</a></li><li id="tool-19"><a href="/quhao.html">区号邮编查询工具</a></li><li id="tool-20"><a href="/shenfenzheng.html">身份证所在地查询</a></li><li id="tool-26"><a href="/riqi.html">日期计算工具</a></li><li id="tool-33"><a href="/huangli.html">老黄历在线查询</a></li><li id="tool-34"><a href="/saoraodianhua.html">骚扰电话查询</a></li><li id="tool-38"><a href="/geshui.html">个人所得税计算器</a></li></ul></dd>
-		</dl><dl id="cate-3">
-			<dt>转换工具</dt>
-			<dd><ul><li id="tool-4"><a href="/renminbi.html">人民币大写转换工具</a></li><li id="tool-5"><a href="/huilv.html">货币汇率换算工具</a></li><li id="tool-7"><a href="/qrcode.html">二维码生成工具</a></li><li id="tool-14"><a href="/nongli.html">农历公历转换工具</a></li><li id="tool-21"><a href="/quanjiaobanjiao.html">全角半角转换工具</a></li><li id="tool-29"><a href="/ascii.html">ASCII编码转换</a></li><li id="tool-36"><a href="/qrcodereader.html">二维码解码工具</a></li><li id="tool-41"><a href="/jinzhi.html">进制转换工具</a></li></ul></dd>
-		</dl><dl id="cate-4">
-			<dt>生理健康</dt>
-			<dd><ul><li id="tool-15"><a href="/xuexing.html">子女血型遗存查询</a></li><li id="tool-16"><a href="/xingbie.html">宝宝性别预测</a></li><li id="tool-25"><a href="/fanying.html">反应速度测试工具</a></li></ul></dd>
-		</dl><dl id="cate-5">
-			<dt>站长工具</dt>
-			<dd><ul><li id="tool-6"><a href="/ip.html">IP地址查询工具</a></li><li id="tool-13"><a href="/whois.html">域名whois查询</a></li><li id="tool-32"><a href="/beian.html">域名备案查询</a></li><li id="tool-37"><a href="/imgalt.html">ALT标签替换工具</a></li></ul></dd>
-		</dl><dl id="cate-6">
-			<dt>开发工具</dt>
-			<dd><ul><li id="tool-10"><a href="/css.html">CSS在线格式化工具</a></li><li id="tool-11"><a href="/json.html">JSON代码格式化工具</a></li><li id="tool-24"><a href="/javascript.html">JavaScript代码格式化</a></li><li id="tool-9"><a href="/base64.html">Base64加密解密工具</a></li><li id="tool-22"><a href="/md5.html">MD5加密工具</a></li><li id="tool-27"><a href="/ua.html">User Agent信息查看</a></li><li id="tool-30"><a href="/color.html">颜色值转换工具</a></li><li id="tool-40"><a href="/randompassword.html">随机密码生成工具</a></li></ul></dd>
-		</dl><dl id="cate-7">
-			<dt>其他工具</dt>
-			<dd><ul><li id="tool-12"><a href="/shicha.html">各国区号代码及时差</a></li><li id="tool-17"><a href="/huobi.html">世界各国货币</a></li><li id="tool-28"><a href="/shoudu.html">各国首都列表</a></li></ul></dd>
-		</dl>		<div class="link"><a href="/blog/">技术博客</a></div>
-	</div>
-	<div id="menu-btn"><i class="icon-menu"></i></div>
-</div>
-<div class="content">
-	<div class="content-body">
-		<div class="tool-title clearfix">
-			<h1 class="tool-name">成语查询工具</h1>
-			<button id="btn-like"><i class="icon-heart"></i> <span id="like-txt">喜欢</span> (<span id="like-num">156</span>)</button>
-		</div>
-		<div class="tool-form">
-			<input type="text" name="word" size="60" class="form-input" id="tool-text" placeholder="请输入成语" onkeydown="if(event.keyCode==13){search_chengyu();return false;}">
-			<div class="btn-list">
-				<input class="btn btn-success" onclick="search_chengyu();" type="button" value="查询">&nbsp;
-				<input class="btn btn-error" type="reset" value="清空">
-			</div>
-			<div id="tool-result" class="hide"></div>
-			<div id="validate-loading" class="hide"><i class="icon-spin5 animate-spin"></i></div>
-			<div id="validate-result" class="alert alert-error hide"></div>
-		</div>
-		<div class="tool-info">
-				    <h5>相关知识</h5>
-			<p>成语（chengyu,idioms）是我国汉字语言词汇中一部分定型的词组或短句。成语有固定的结构形式和固定的说法，表示一定的意义，在语句中是作为一个整体来应用的。成语有很大一部分是从古代相承沿用下来的，在用词方面往往不同于现代汉语它代表了一个故事或者典故。 成语又是一种现成的话，跟习用语、谚语相近，但是也略有区别。成语大都出自书面，属于文语性质的。其次在语言形式上，成语是约定俗成的四字结构，字面不能随意更换；成语在语言表达中有生动简洁、 形象鲜明的作用。</p>
-		   </div>
-   
-	</div>
-	<div class="footer">
-	<div class="footer-nav"><a href="/">返回首页</a><span>-</span><a href="/about.html">关于蛙蛙工具</a><span>-</span><a href="/feedback.html">意见反馈</a><span>-</span><a href="/support.html"><i class="icon-coffee" style="color:#d9534f"></i> 打赏一下</a><span>-</span><a href="https://www.iamwawa.cn/blog/5-weiapp.html"><i class="icon-wechat" style="color:#4caf50"></i> 小程序</a></div>
-	<p>Copyright © 蛙蛙在线工具 版权所有   <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">粤ICP备18006158号</a></p>
-</div>
-<div id="go-top" style="display:none;">
-    <a rel="nofollow" href="#top" title="回顶部"><i class="icon-up-big"></i></a>
-</div>
-</div>
-<script src="https://hm.baidu.com/hm.js?ca368c21c1d2aa60e6f63d598c4cb02a"></script><script type="text/javascript">var APP='/';var PUBLIC='/Public/';var URL='/home/chengyu/';var TID=23;</script>
-<script src="/Public/js/public.min.js?v=2018100103"></script>
-<script src="/Public/js/tool/chengyu.js?v=1.2"></script>
-
-</body></html>
+    <audio></audio><div id="qb-sougou-search" style="display: none; opacity: 0;"><p>搜索</p><p class="last-btn">复制</p><iframe src=""></iframe></div></body></html>
