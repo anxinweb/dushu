@@ -1,6 +1,6 @@
 全网影院
 ---
--
+-【[直播](https://github.com/fangsxin/dushu/blob/master/%E5%BD%B1%E8%AE%AF/%E7%9B%B4%E6%92%AD/README.md)】
 <!-- more -->
 > 1、【[故事影院](https://www.5ixu.com/)】
 >
