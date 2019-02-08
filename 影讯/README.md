@@ -15,7 +15,9 @@
 >
 > 【[每日美文](http://t.cn/EcJ0V9r)】
 >
-> 【关于](https://mp.weixin.qq.com/s/8873ZXHF6NTy-aT9ObE7sA)】
+> 【[关于](https://mp.weixin.qq.com/s/8873ZXHF6NTy-aT9ObE7sA)】
+
+
 <u></u>
 
 上次分享的影讯app，非常受大家的好评，具体情况点击[影讯APP](https://mp.weixin.qq.com/s/lpwQj5-spAtFf5ice2USYg)
