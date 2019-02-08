@@ -8,7 +8,7 @@
 >
 > 3、【[久看影院](http://www.9kantv.com/)】
 >
-> 4、【[狗带TV](http://www.vultr1.com/?nsukey=eY%2FGwpWFaOTA1y8ARg34TOEdzrawS4jQtXrk09d3fE6Giv3SEUwe7aEKjoEMIEbQkFZEgcT%2BIm2UdHeX6YC1vhKdKJWRiNwMwoFtnkOdQivQZoTKB%2Bt1e%2FeWU2LsxkiaTOYs4wSdRuiA119BYUMCVK6%2BJoqh%2BnHhTmM194ZPT0QuT7UkdgtC3kLB0fz%2Bvr1ipKTx94JLLH%2B0DjJBl%2BGdyg%3D%3D)】
+> 4、【[狗带TV](http://www.vultr1.com/)】
 >
 > 5、【[夭夭灵]( http://tv.110o.cn/ )】
 >
