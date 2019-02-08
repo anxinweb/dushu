@@ -1,0 +1,145 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>  
+		<title>中国象棋</title>
+		<link rel="author" href="https://plus.google.com/117054904202244414422?rel=author">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="bookmark" href="/favicon.ico">
+<link rel="stylesheet" href="res/ad-block/ad-block.css">
+<script type="text/javascript" async="" src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js"></script><script src="//hm.baidu.com/hm.js?b169f904ade5ef8ef30b1f93eb03f0ef"></script><script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "//hm.baidu.com/hm.js?b169f904ade5ef8ef30b1f93eb03f0ef";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+
+	function async_load(url){ 
+		var s = document.createElement('script'); 
+		s.type = 'text/javascript'; 
+		s.async = true; 
+		s.src = url; 
+		var x = document.getElementsByTagName('script')[0]; 
+		x.parentNode.insertBefore(s, x); 
+	}
+	function sync_load_js(url) {
+		if (window.attachEvent) 
+			window.attachEvent('onload', function() {async_load(url)}); 
+		else 
+			window.addEventListener('load', function() {async_load(url)}, false); 
+	}
+
+	function async_do_func(func) {
+		if (window.attachEvent) 
+			window.attachEvent('onload', func); 
+		else 
+			window.addEventListener('load', func, false); 
+	}
+	sync_load_js("http://tjs.sjs.sinajs.cn/open/api/js/wb.js");
+</script>
+	<link href="http://cdn.atool.org/res/css.css" rel="stylesheet" type="text/css">
+		<meta name="Keywords" content="aTool,在线工具,在线游戏,中国象棋,在线中国象棋,中国象棋AI,象棋AI设计">  
+		<meta name="Description" content="aTool,在线工具,在线游戏,中国象棋，一款在线的中国象棋游戏，并附带有非常厉害的AI，你下的过它吗？">
+		<link href="http://cdn.atool.org/res/css.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="http://cdn.atool.org/res/jquery.min.js"></script>
+		<link href="http://cdn.atool.org/res/chess/css/chess.css" type="text/css" rel="stylesheet">
+	<style>#ds-reset .ds-br,#ds-reset .ds-os,#ds-reset .ds-webmaster{display:inline-block;border-radius:.3em;margin-left:.5em;padding:.3em}#ds-reset .ds-os{color:#fff;background:#1e90ff}#ds-reset .ds-br{color:#ff0;background:green}#ds-reset .ds-webmaster{border:1px solid red;color:red}</style><style>#xReturnTop{font-size:12px;position:fixed;z-index:9999;}#xReturnTop div,#xReturnTop div a{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;width:36px;height:36px;display:block;}#xReturnTop div{transition:0.3s;position:fixed;left:85%;bottom:-60px;background:url(http://cdn.atool.org/res/xreturntop/returnBgX.png) repeat;cursor:pointer;}#xReturnTop div a{float:left;background:url(http://cdn.atool.org/res/xreturntop/returnTopIco.png) no-repeat 11px 10px;}#xReturnTop div a:hover{background-color:#6e6e6e;}#xReturnTop div span{float:left;line-height:36px;color:#e6e6e6;margin-left:6px;}</style><script src="http://bdimg.share.baidu.com/static/api/js/share.js?v=86835285.js?cdnversion=430441"></script><script src="http://bdimg.share.baidu.com/static/api/js/share.js?v=86835285.js?cdnversion=430441"></script><link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/share_style1_24.css"></head>  
+	<body style="background: url(&quot;res/chess/img/stype_2/body_bg.png&quot;);">  
+		<div id="warp">
+			<script language="javascript" type="text/javascript">
+ function addfavor(url,title){var ua=navigator.userAgent.toLowerCase();if(ua.indexOf("msie 8")>-1){external.AddToFavoritesBar(url,title,'');}else{try{window.external.addFavorite(url,title);}catch(e){try{window.sidebar.addPanel(title,url,'');}catch(e){alert("加入收藏失败，请使用键盘Ctrl+D进行添加");}}}return false;}
+</script>
+
+			<div class="center">
+				<h1>中国象棋</h1>
+				<hr>
+				<br>
+				<div class="box" id="box" style="width: 80%;">
+					<div class="chess_left">
+						<canvas id="chess" width="530" height="567">对不起，您的浏览器不支持HTML5，请升级浏览器至IE9、firefox或者谷歌浏览器！</canvas>
+						<audio src="audio/click.wav" id="clickAudio" preload="auto"></audio>
+						<!--<audio src="audio/check.wav" id="checkAudio" preload="auto"></audio>-->
+						<audio src="audio/select.wav" id="selectAudio" preload="auto"></audio>
+						<div>
+							<div class="bn_box" id="bnBox" style="display: block;">
+								<input type="button" name="offensivePlay" id="tyroPlay" value="新手水平">
+								<input type="button" name="offensivePlay" id="superPlay" value="大师水平">
+								<!--<input type="button" name="button" id="" value="大师水平" disabled />-->
+								<!--
+							<input type="button" name="offensivePlay" id="offensivePlay" value="先手开始" />
+							<input type="button" name="defensivePlay" id="defensivePlay" value="后手开始" />
+								-->
+								<input type="button" name="regret" id="regretBn" value="悔棋">
+								<input type="button" name="billBn" id="billBn" value="棋谱" class="bn_box">
+								<input type="button" name="stypeBn" id="stypeBn" value="换肤">
+							</div>
+						</div>
+					</div>
+					<div class="chess_right" id="chessRight">
+						<select name="billList" id="billList">
+						</select>
+						<ol id="billBox" class="bill_box">
+						</ol>
+					</div>
+					<div id="moveInfo" class="move_info"> </div>
+				</div>
+				<script src="res/chess/js/common.js"></script> 
+				<script src="res/chess/js/play.js"></script> 
+				<script src="res/chess/js/AI.js"></script> 
+				<script src="res/chess/js/bill.js"></script> 
+				<script src="res/chess/js/gambit.js"></script>
+				<br>
+				<hr>
+				<br>
+				<h2>中国象棋介绍</h2>
+				<ul><li>象棋，亦作“象碁”、中国象棋（英文名Xiangqi）。</li></ul>
+				<ul><li>在中国有着悠久的历史，属于二人对抗性游戏的一种，由于用具简单，趣味性强，成为流行极为广泛的棋艺活动。</li></ul>
+				<ul><li>主要流行于华人及越南人社区，是中国正式开展的78个体育运动项目之一。是首届世界智力运动会的正式比赛项目之一。</li></ul>
+				<hr>
+				<br>
+				<h2>中国象棋判定规则</h2>
+				<ul><li>将死——另一方走一步棋之后试图吃掉一方的帅（将），但该方的帅（将）却不能躲避；</li></ul>
+				<ul><li>困毙——轮到一方行棋，但按规定，己方无棋可走；</li></ul>
+				<ul><li>认输——由于子力悬殊，继续抵抗毫无意义的主动认输；</li></ul>
+				<ul><li>长打（即长捉、长将、长杀、或一将一要杀）的一方通常判负；</li></ul>
+				<ul><li>行棋违规、违纪、超时等情况判负。</li></ul>
+				<hr>
+				<br>
+				<h2>中国象棋和棋规则</h2>
+				<ul><li>双方理论上无法取胜的简单局面；</li></ul>
+				<ul><li>符合“六十回合规定”——从任意一步开始，六十回合内双方均无损失一子；</li></ul>
+				<ul><li>一方提和，另一方同意和棋；</li></ul>
+				<ul><li>长打（即长捉、长将、长杀、或一将一要杀）的一方通常判负；</li></ul>
+				<ul><li>长跟、长兑、长拦、长献、一捉一闲、或一将一闲，循环三回合后可判和。</li></ul>
+				<hr>
+				<br>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+			
+
+
+
+
+
+
+
+
+
+
+		</div>
+			  
+</body></html>
