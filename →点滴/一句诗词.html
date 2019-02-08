@@ -7,28 +7,62 @@
 <meta http-equiv="Cache-Control" content="no-siteapp">
 <link rel="icon" type="image/png" href="/Public/img/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/Public/img/app-icon72x72@2x.png">
-<title>随机一句诗词</title>
+<title>随机显示一句诗词_蛙蛙在线工具</title>
 <meta name="keywords" content="一句诗词">
 <meta name="description" content="随机显示一句诗词，使用今日诗词提供的API，根据不同地点、时间、节日、季节、天气、景观、城市进行智能推荐一句诗词。">
 <link href="/Public/css/wawa.min.css?v=1.77" rel="stylesheet">
 </head>
 
 <body>
-
+<div class="header">
+	<div class="logo">
+		<a href="/" title="返回蛙蛙工具首页"><img alt="蛙蛙工具" src="/Public/img/logo.png" srcset="/Public/img/logo@2x.png 2x"></a>
+		<h1>蛙蛙工具</h1>
+		<p>便捷的在线工具网站</p>
+	</div>
+	<div class="menu">
+		<div class="link"><a href="http://www.iamwawa.cn/">首页</a></div><dl id="cate-1">
+			<dt class="current">文字工具</dt>
+			<dd style="display:block;"><ul><li id="tool-1"><a href="/daxiaoxie.html">英文字母大小写转换</a></li><li id="tool-2"><a href="/jianfanti.html">中文简繁体转换工具</a></li><li id="tool-3"><a href="/pinyin.html">中文转拼音注音工具</a></li><li id="tool-23"><a href="/chengyu.html">成语查询工具</a></li><li id="tool-31"><a href="/fanyi.html">在线翻译工具</a></li><li id="tool-35"><a href="/ocr.html">OCR图片识别文字工具</a></li><li id="tool-39" class="current"><a href="/shici.html">一句诗词</a></li></ul></dd>
+		</dl><dl id="cate-2">
+			<dt>便民查询</dt>
+			<dd><ul><li id="tool-8"><a href="/shouji.html">手机号码归属地查询</a></li><li id="tool-18"><a href="/dianhua.html">常用电话列表</a></li><li id="tool-19"><a href="/quhao.html">区号邮编查询工具</a></li><li id="tool-20"><a href="/shenfenzheng.html">身份证所在地查询</a></li><li id="tool-26"><a href="/riqi.html">日期计算工具</a></li><li id="tool-33"><a href="/huangli.html">老黄历在线查询</a></li><li id="tool-34"><a href="/saoraodianhua.html">骚扰电话查询</a></li><li id="tool-38"><a href="/geshui.html">个人所得税计算器</a></li></ul></dd>
+		</dl><dl id="cate-3">
+			<dt>转换工具</dt>
+			<dd><ul><li id="tool-4"><a href="/renminbi.html">人民币大写转换工具</a></li><li id="tool-5"><a href="/huilv.html">货币汇率换算工具</a></li><li id="tool-7"><a href="/qrcode.html">二维码生成工具</a></li><li id="tool-14"><a href="/nongli.html">农历公历转换工具</a></li><li id="tool-21"><a href="/quanjiaobanjiao.html">全角半角转换工具</a></li><li id="tool-29"><a href="/ascii.html">ASCII编码转换</a></li><li id="tool-36"><a href="/qrcodereader.html">二维码解码工具</a></li><li id="tool-41"><a href="/jinzhi.html">进制转换工具</a></li></ul></dd>
+		</dl><dl id="cate-4">
+			<dt>生理健康</dt>
+			<dd><ul><li id="tool-15"><a href="/xuexing.html">子女血型遗存查询</a></li><li id="tool-16"><a href="/xingbie.html">宝宝性别预测</a></li><li id="tool-25"><a href="/fanying.html">反应速度测试工具</a></li></ul></dd>
+		</dl><dl id="cate-5">
+			<dt>站长工具</dt>
+			<dd><ul><li id="tool-6"><a href="/ip.html">IP地址查询工具</a></li><li id="tool-13"><a href="/whois.html">域名whois查询</a></li><li id="tool-32"><a href="/beian.html">域名备案查询</a></li><li id="tool-37"><a href="/imgalt.html">ALT标签替换工具</a></li></ul></dd>
+		</dl><dl id="cate-6">
+			<dt>开发工具</dt>
+			<dd><ul><li id="tool-10"><a href="/css.html">CSS在线格式化工具</a></li><li id="tool-11"><a href="/json.html">JSON代码格式化工具</a></li><li id="tool-24"><a href="/javascript.html">JavaScript代码格式化</a></li><li id="tool-9"><a href="/base64.html">Base64加密解密工具</a></li><li id="tool-22"><a href="/md5.html">MD5加密工具</a></li><li id="tool-27"><a href="/ua.html">User Agent信息查看</a></li><li id="tool-30"><a href="/color.html">颜色值转换工具</a></li><li id="tool-40"><a href="/randompassword.html">随机密码生成工具</a></li></ul></dd>
+		</dl><dl id="cate-7">
+			<dt>其他工具</dt>
+			<dd><ul><li id="tool-12"><a href="/shicha.html">各国区号代码及时差</a></li><li id="tool-17"><a href="/huobi.html">世界各国货币</a></li><li id="tool-28"><a href="/shoudu.html">各国首都列表</a></li></ul></dd>
+		</dl>		<div class="link"><a href="/blog/">技术博客</a></div>
+	</div>
+	<div id="menu-btn"><i class="icon-menu"></i></div>
+</div>
 <div class="content">
 	<div class="content-body">
 		<div class="tool-title clearfix">
 			<h1 class="tool-name">一句诗词</h1>
-			<button id="btn-like"><i class="icon-heart"></i> <span id="like-txt">喜欢</span> (<span id="like-num">79</span>)</button>
+			<button id="btn-like" disabled="disabled"><i class="icon-heart"></i> <span id="like-txt">已赞</span> (<span id="like-num">80</span>)</button>
 		</div>
 		<div class="tool-form" style="text-align:center;">
-			<p id="sentence" style="white-space: nowrap; display: inline-block; font-size: 30.4615px;">料想春光先到处，吹绽梅英。</p>
+			<p id="sentence" style="white-space: nowrap; display: inline-block; font-size: 24.75px;">昨夜闲潭梦落花，可怜春半不还家。</p>
 			<div class="btn-list" style="padding-top:2rem;">
 				<input class="btn btn-success" style="border-radius: 15px;" id="change" onclick="change();" type="button" value="换一句">
 			</div>
 		</div>
 	</div>
-	
+	<div class="footer">
+	<div class="footer-nav"><a href="/">返回首页</a><span>-</span><a href="/about.html">关于蛙蛙工具</a><span>-</span><a href="/feedback.html">意见反馈</a><span>-</span><a href="/support.html"><i class="icon-coffee" style="color:#d9534f"></i> 打赏一下</a><span>-</span><a href="https://www.iamwawa.cn/blog/5-weiapp.html"><i class="icon-wechat" style="color:#4caf50"></i> 小程序</a></div>
+	<p>Copyright © 蛙蛙在线工具 版权所有   <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">粤ICP备18006158号</a></p>
+</div>
 <div id="go-top" style="display:none;">
     <a rel="nofollow" href="#top" title="回顶部"><i class="icon-up-big"></i></a>
 </div>
