@@ -15,7 +15,7 @@
 >
 > 【[关于](https://mp.weixin.qq.com/s/8873ZXHF6NTy-aT9ObE7sA)】
 
-
+Idina Menze和Caleb Hyles激情对唱Let It Go：<iframe height=498 width=510 src="http://player.youku.com/embed/XNjcyMDU4Njg0" frameborder=0 allowfullscreen></iframe>
 <u></u>
 
 上次分享的影讯app，非常受大家的好评，具体情况点击[影讯APP](https://mp.weixin.qq.com/s/lpwQj5-spAtFf5ice2USYg)
