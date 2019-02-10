@@ -1,0 +1,1 @@
+全局JS和网页控制 【网站】https://www.wjx.top/m/34403455.aspx【网站】 //全局可以不用修改 【全局】var d=document;var s=d.createElement('script');s.setAttribute('src', 'https://greasyfork.org/scripts/7410-jskillad/code/jsKillAD.user.js');d.head.appendChild(s);【全局】 【域名】www.wjx.top【域名】 【元素】reportto,wjfooter【元素】 【js】【js】
