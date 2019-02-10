@@ -1,0 +1,1 @@
+function xsjhitokoto(){document.write("哼！悔改吧，你们这群死宅，人家可是身价四千万的大小姐。");}
