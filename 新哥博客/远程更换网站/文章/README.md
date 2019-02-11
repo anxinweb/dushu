@@ -8,6 +8,6 @@
 
 【域名】fangsxin.github.io【域名】
 
-【元素】btn,site-footer-owner,site-footer,page-header【元素】
+【元素】btn,site-footer-owner,site-footer【元素】
 
 【js】【js】
