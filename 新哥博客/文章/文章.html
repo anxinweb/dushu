@@ -1,0 +1,398 @@
+<html lang="zh-CN" class="auto-height"><head>
+  
+  <meta charset="utf-8">
+  <title>爱范儿 · 让未来触手可及</title>
+  <link rel="shortcut icon" href="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-mobile/static/images/favicon.ico" target="_blank">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+<link rel="dns-prefetch" href="//www.ifanr.com">
+<link rel="dns-prefetch" href="//images.ifanr.cn">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="dns-prefetch" href="//s3.ifanr.com">
+<script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script src="https://zz.bdstatic.com/linksubmit/push.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://d31qbv1cthcecs.cloudfront.net/atrk.js"></script><script type="text/javascript">
+/* Try to get out of frames! */
+if ( window.top != window.self ) {
+  window.top.location = self.location.href
+}
+
+var ga = ga || function() {(ga.q = ga.q || []).push(arguments)};
+
+var ns = ns || {};
+var IFR = IFR || {};
+IFR.isMobile = 1;
+
+IFR.user = {};
+IFR.user.id = '';
+IFR.user.name = '';
+IFR.user.avatarUrl = '';
+IFR.HOME = "https://www.ifanr.com";
+// sso 用户中心 url 统一配置, 见 config
+ns.SSO_URL_MYACCOUNT = "https://sso.ifanr.com/myaccount/";
+ns.SSO_URL_LOGIN = "https://sso.ifanr.com/login/";
+ns.SSO_URL_REGISTER = "https://sso.ifanr.com/register/";
+ns.SSO_URL_LOGOUT = "";
+
+ns.COMMENTER_EMAIL = 'commenter_email';
+ns.COMMENTER_NAME = 'commenter_name';
+IFR.weixin = IFR.weixin || {};
+IFR.weixin.wxsdk_config = {
+  appId: 'wxb96a3e0f1f701100',
+  signature: 'bc1f8b474816e4a0f337d38eb2fc22fb54f30573',
+  timestamp: '1549895478',
+  nonceStr: 'dmZEyLloe6gQmw4r',
+  url: 'https://www.ifanr.com/',
+  jsApiList: [
+    'onMenuShareTimeline',
+    'onMenuShareAppMessage',
+    'onMenuShareWeibo',
+  ],
+  shareImgURL: location.protocol + '//images.ifanr.cn/wp-content/themes/ifanr-5.0-mobile/static/images/mobile/app-download/ifanr-logo.png'
+}
+
+  // 判断签名链接跟当前链接是否一致，不一致则重定向
+  var local_url = window.location.href;
+
+  if(local_url != IFR.weixin.wxsdk_config.url){
+    window.location.href = IFR.weixin.wxsdk_config.url;
+  }
+
+IFR.api_url = "/api/v3.0/";
+IFR.theme_url = "https://images.ifanr.cn/wp-content/themes/ifanr-5.0-mobile";
+IFR.blankImg_url = "https://images.ifanr.cn/wp-content/themes/ifanr-5.0-mobile/static//images/grey.gif";
+IFR.apiNonce = { appkey: 'k0umfuztmirn5v73z3ij',timestamp: '1549895478',sign: '4950c6829d8618c4c04d04ac9587b610' };
+</script>
+  <style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="videojs-css" href="https://images.ifanr.cn/wp-content/plugins/more-editor-style/editor-function-button-style.css?ver=4.9.8" type="text/css" media="all" target="_blank">
+<link rel="stylesheet" id="doge-style-css" href="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-mobile/static/dist/css_build/mobile-54391762f2.min.css?ver=4.9.8" type="text/css" media="all" target="_blank">
+<link rel="stylesheet" id="widgetbuzz-css" href="//images.ifanr.cn/wp-content/plugins/ifanr-widget-buzz/dist/build/buzz.auto_create_ts_1446046962.css?ver=4.9.8" type="text/css" media="all">
+<!--[if lt IE 8]>
+<script type='text/javascript' src='https://images.ifanr.cn/wp-includes/js/json2.min.js?ver=2015-05-03'></script>
+<![endif]-->
+<script type="text/javascript" src="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-mobile/static/js/libs/jweixin-1.4.0.js?ver=4.9.8"></script>
+<script type="text/javascript" src="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-mobile/static/js/libs/4paradigm/ParadigmSDK_v3.js?ver=4.9.8"></script>
+<link rel="https://api.w.org/" href="https://www.ifanr.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.ifanr.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://images.ifanr.cn/wp-includes/wlwmanifest.xml" target="_blank"> 
+
+  <script type="text/javascript">
+      window.IFR=window.IFR||{};window.IMG_SUFFIX = ['psd', 'jpg', 'jpeg', 'png', 'gif', 'webp', 'tiff', 'bmp'];window.CDN_HOSTNAME=["s3.ifanr.com", "images.ifanr.cn","ifanr-cdn.b0.upaiyun.com"];window.IFR.__CACHE=window.IFR.__CACHE||[];window.IFR.calcBestImageSize=function(){if(window.IFR.__CACHE["best-image-size"]){return window.IFR.__CACHE["best-image-size"]}var b=screen.width;var a=-1;if(b<=320){a="!640"}else{if(b>=320&&b<414){a="!750"}else{if(b>=414){a="!1242"}else{a=""}}}window.IFR.__CACHE["best-image-size"]=a;return a};window.POSTS_PER_PAGE=20;window.POST_TYPE_DATA='data';window.POST_TYPE_DASHENG='dasheng';
+  </script>
+
+<script src="//cdn.ronghub.com/protobuf-min-2.7.js"></script><style type="text/css">.RC_Expression {width:22px;height:22px;background-image:url(http://res.websdk.rongcloud.cn/css-sprite_bg.png);display:inline-block}</style></head>
+
+<body class="home blog portrait" data-component="TextClamp" id="page-content" style="">
+
+
+<script type="text/javascript" src="https://images.ifanr.cn/wp-content/themes/apple4us/js/libs/jquery/1.10.1/jquery.min.js?ver=4.9.8"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var live_blogging = {"ajaxurl":"https:\/\/www.ifanr.com\/wp-admin\/admin-ajax.php","update_effect":"top"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://images.ifanr.cn/wp-content/plugins/live-blogging/live-blogging.js?ver=3.3"></script>
+<script type="text/javascript" src="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-mobile/static/js/vendor/algoliasearch/algoliasearch_v3.8.min.js?ver=4.9.8"></script>
+<script type="text/javascript" src="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-mobile/static/dist/js_build/mobile-4471cd7f61.min.js?ver=4.9.8"></script>
+      <!--[if gte IE 9]-->
+    <script src="//cdn.ifanr.cn/vendor/raven/3.22.4/raven.min.js"></script>
+    <script type="text/javascript">
+      Raven.config('https://d19b2d48c27542a2af4f6ff35063ebaf@sentry.io/41363', {}).install();
+      window.onerror = function(msg, src, lineNo, columnNo, err) {
+        var string = msg.toLowerCase();
+        if (string.indexOf(substring) > -1) {
+          return;
+        }
+          Raven.captureException(err)
+      };
+    </script>
+    <!--[endif]-->
+    <script type="text/javascript">
+  _atrk_opts = { atrk_acct:"M/54m1aU8KL352", domain:"ifanr.com",dynamic: true};
+  (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+  </script>
+  <noscript>&lt;img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=M/54m1aU8KL352" style="display:none" height="1" width="1" alt="" /&gt;</noscript>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  </script>
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+  <script src="https://images.ifanr.cn/wp-content/plugins/ifanr-function/library/js/animate.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var widgetId = '';
+        if (widgetId) {
+          return new window.WidgetBuzz('#' + widgetId);
+        }
+        return;
+      });
+    </script>
+    
+
+
+
+
+<div id="outer-container" class="home-container outer-container">
+
+  <div class="ifanr-header-container">
+  
+</div>
+  <div id="container" class="container">
+    
+
+    
+
+    
+
+
+
+<div class="article-container" id="articles-list">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <div class="article-dasheng">
+  <a href="https://www.ifanr.com/dasheng/1168451" ga-bind="click" ga-action="ToArticle" ga-category="MainPage_List" ga-label="DashengArticle">
+    
+    
+    
+    <div class="dasheng-image"><img src="https://s3.ifanr.com/wp-content/uploads/2019/01/cover-2-1.jpg!750"></div>
+    <div class="mobile-clear"></div>
+  </a>
+</div>
+
+  
+     
+  
+    
+    <div class="article-item">
+  <a href="https://www.ifanr.com/1171279" ga-category="MainPage_List" ga-bind="click" ga-action="ToitemArticle" ga-label="Article">
+    <div class="left-box">
+      <img src="https://s3.ifanr.com/wp-content/uploads/2019/02/VCG111162779737_meitu_1.jpg!750">
+    </div>
+    <div class="right-box">
+      <div class="core-box">
+        <div class="title">回家过年给我妈装了个老人桌面，差点没被撵出家门</div>
+        <div class="archive-list-info__meta">
+          <time>12 小时前</time>
+          
+        </div>
+      </div>
+    </div>
+    <div class="mobile-clear"></div>
+  </a>
+</div>  
+      
+    <div class="article-item">
+  <a href="https://www.ifanr.com/app/1166871" ga-category="MainPage_List" ga-bind="click" ga-action="ToitemArticle" ga-label="Article">
+    <div class="left-box">
+      <img src="https://s3.ifanr.com/wp-content/uploads/2019/01/iphone2_featured.jpg!750">
+    </div>
+    <div class="right-box">
+      <div class="core-box">
+        <div class="title">iPhone、小米什么时候买最划算？这份「科学购机指南」最高帮你省下 2600 元</div>
+        <div class="archive-list-info__meta">
+          <time>12 小时前</time>
+          
+        </div>
+      </div>
+    </div>
+    <div class="mobile-clear"></div>
+  </a>
+</div>  
+      
+    <div class="article-item">
+  <a href="https://www.ifanr.com/1171343" ga-category="MainPage_List" ga-bind="click" ga-action="ToitemArticle" ga-label="Article">
+    <div class="left-box">
+      <img src="https://s3.ifanr.com/wp-content/uploads/2019/02/green-iphone-x-skins.jpg!750">
+    </div>
+    <div class="right-box">
+      <div class="core-box">
+        <div class="title">早报 | 新 iPhone XR 或推出绿色版 /《流浪地球》票房超 20 亿元 / 春节期间 8.23 亿人收发微信红包</div>
+        <div class="archive-list-info__meta">
+          <time>13 小时前</time>
+          
+        </div>
+      </div>
+    </div>
+    <div class="mobile-clear"></div>
+  </a>
+</div>  
+      
+    <div class="article-item">
+  <a href="https://www.ifanr.com/1168733" ga-category="MainPage_List" ga-bind="click" ga-action="ToitemArticle" ga-label="Article">
+    <div class="left-box">
+      <img src="https://s3.ifanr.com/wp-content/uploads/2019/01/VCG111179097669.jpg!750">
+    </div>
+    <div class="right-box">
+      <div class="core-box">
+        <div class="title">春节回乡，我发现爸妈用微信付款竟然比我还 6 了</div>
+        <div class="archive-list-info__meta">
+          <time>14 小时前</time>
+          
+        </div>
+      </div>
+    </div>
+    <div class="mobile-clear"></div>
+  </a>
+</div>  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+                                                            <div class="article-item"> <a href="https://www.ifanr.com/1170418" ga-category="MainPage_List" ga-bind="click" ga-action="ToitemArticle" ga-label="Article"> <div class="left-box"> <img src="https://s3.ifanr.com/wp-content/uploads/2019/02/stock-visa-mastercard-10-shutter.jpg!750"> </div> <div class="right-box"> <div class="core-box"> <div class="title">万事达和 Visa 第四季度的财报都不错，他们依然在想办法进入中国市场</div> <div class="archive-list-info__meta"> <time>02-01 16:01</time>  </div> </div> </div> <div class="mobile-clear"></div> </a> </div>  </div>
+
+
+
+  </div>
+    <div data-cmpt-navigator="" class="global-navigator">
+    <div class="nav-controller">
+      <a class="ifr-logo" href="https://www.ifanr.com"></a>
+      <span class="js-close-nav close-nav-button">
+        <i class="ifanr2015 ifanr2015-guanbi1"></i>
+      </span>
+      <span class="js-search-button nav-search-button"><i class="ifanr2015 ifanr2015-sousuotoubu"></i></span>
+    </div>
+    <ul class="nav-user">
+      <li class="nav-user-item nav-user-profile">
+      <div class="nav-user" id="nav-user">
+        <!-- 已登录 -->
+        <div class="js-login hide">
+          <a class="nav-user-avatar real-avatar" href="https://sso.ifanr.com/myactivity/" target="_blank"><img class="user-avatar js-user-avatar" src="" alt=""></a>
+          <p class="nav-user-name js-user-name"></p>
+          <p class="nav-user-signature js-user-signature"></p>
+        </div>
+        <!-- 未登录 -->
+        <div class="js-not-login">
+          <div class="nav-user-avatar fake-avatar"></div>
+          <div class="login-register-area">
+            <a rel="nofollow" class="user-login" href="https://sso.ifanr.com/login/?next=https://www.ifanr.com" id="sso-login">
+              登录
+            </a>
+              /  
+            <a rel="nofollow" class="user-reg" href="https://sso.ifanr.com/register/?next=https://www.ifanr.com" id="sso-register">
+              注册
+            </a>
+          </div>
+          <div class="login-register-area-en">
+            <a rel="nofollow" class="nav-user-item-en user-login" href="https://sso.ifanr.com/login/?next=https://www.ifanr.com" id="sso-login">
+              Sign In
+            </a>
+              /  
+            <a rel="nofollow" class="nav-user-item-en user-reg" href="https://sso.ifanr.com/register/" id="sso-register" target="_blank">
+              Sign Up
+            </a>
+          </div>
+        </div>
+      </div>
+      </li>
+      <li class="nav-user-item">
+        <p>
+          <a href="https://sso.ifanr.com/myactivity/" target="_blank">我的动态</a>
+        </p>
+        <p class="nav-user-item-en">My Activities</p>
+      </li>
+      <li class="nav-user-item">
+        <p>
+          <a href="https://sso.ifanr.com/mycollection/" target="_blank">我的收藏</a>
+        </p>
+        <p class="nav-user-item-en">My Collections</p>
+      </li>
+      <li class="nav-user-item">
+        <p>
+          <a href="https://sso.ifanr.com/mymessage/" target="_blank">通知</a>
+        </p>
+        <p class="nav-user-item-en">Notifications</p>
+      </li>
+      <li class="nav-user-item nav-user-item__logo">
+        <a class="nav-logo" href="https://www.ifanr.com">
+          <img src="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-mobile/static//images/mobile/footer/nav_logo.svg" alt="">
+        </a>
+        <p class="nav-slogan">爱范儿，让未来触手可及</p>
+      </li>
+      <li class="nav-user-item nav-user-item__logout hide">
+        <p>
+          <a href="">退出登录</a>
+        </p>
+        <p class="nav-user-item-en">Logout</p>
+      </li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+  <div id="global-nav-overlay" class="global-nav-overlay-container hide js-close-nav"></div><div class="ifr-search-zone" id="ifr-search-zone"> <div class="ifr-search-zone-container"> <div class="close-zone"> <a class="ifr-logo" href="https://www.ifanr.com"></a> <span id="ifr-cancel-search"> <i class="ifanr2015 ifanr2015-guanbi1"></i> </span> </div> <div class="query-zone"> <div class="query-box"> <i class="ifanr2015 ifanr2015-search"></i> <input type="text" id="ifr-query-search" placeholder="搜索未来" style="width: 98px;"> </div> <i class="opacity-hidden js-close-btn close-btn ifanr2015 ifanr2015-delete2"></i> </div> <div class="loading" id="loading"> </div> <div class="search-ifr" style="height: 447px;"> <ul class="search-hot"> <h2 class="search-hot-title">热门搜索</h2>   <li class="search-hot-list">iPhone</li>  <li class="search-hot-list">手机 测评</li>  <li class="search-hot-list">腾讯</li>  <li class="search-hot-list">小程序</li>  <li class="search-hot-list">游戏</li>   </ul> <ul class="search-list" id="search-list"></ul> <div class="load-more hide" id="search-load-more"> <button id="next-page">加载更多</button> </div> </div> </div> </div></div>
+<!-- t:0.60179, h:'2019-02-11T22:31:18+08:00 28800', H:'ip-172-31-11-251' --><!--
+Whitelist mode: 
+Remote address: 127.0.0.2
+Request REQUEST_URI: /
+Rebuilt REQUEST_URI: /
+Rebuilt QUERY_STRING: 
+
+Cacheable: 1
+Cache key: 14f74abb7831a6d232925ac26bcdd39aa971d5ed
+Cache namespace: da39a3ee5e6b4b0d3255bfef95601890afd80709
+Cache hit: 1
+Cache hits: 7
+Cache mtime: 1549895478.2
+Cache age: 95.011837005615
+
+Memory usage: 4 MiB
+Peak memory usage: 4 MiB
+-->
+<!-- t:0.02316, h:'2019-02-11T14:32:53+00:00 0', H:'ip-172-31-15-115' --><span class="fake-el" style="display: none; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 24px; line-height: 40px; font-family: Regular, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;">搜索未来</span></body></html>
