@@ -13,3 +13,5 @@
 > 5、【[看哥追书](https://m.seego.co/)】
 >
 > 6、【[吾爱中文网](http://m.5izww.com/)】
+>
+> 6、【[免费小说之王（小米）](https://reader.browser.duokan.com/v2/#tab=store/)】
