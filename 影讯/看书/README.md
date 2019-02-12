@@ -15,3 +15,10 @@
 > 6、【[吾爱中文网](http://m.5izww.com/)】
 >
 > 6、【[免费小说之王（小米）](https://reader.browser.duokan.com/v2/#tab=store/)】
+
+
+
+
+<a href="http://php.cn/">点击这里<a>
+
+<button>点击这里</button></a>
