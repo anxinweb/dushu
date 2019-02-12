@@ -1,0 +1,51 @@
+<html><head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=11.0" id="mixia_vpid">
+		<title>百度一下</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="http://f6yk.com/api/favicon.ico" rel="icon" type="image/x-icon">
+		<style type="text/css">
+
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="section" style="margin-top: 20%;">
+					<img class="col s10 push-s1" src="https://www.baidu.com/img/bd_logo1.png">
+				</div>
+				<div class="nav-wrapper card col s12 hoverable" style="margin-top: 15%;">
+					<div class="input-field">
+						<input style="border: none; padding-left: 0px; " id="search" type="search">
+						<label class="label-icon active" for="search"></label>
+						<i id="send" style="right: 0px;" class="material-icons">search</i>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+	<script>
+		/*var elem = document.querySelector('.carousel');
+						var instance = M.Carousel.init(elem, {
+							fullWidth: true
+						});*/
+		var search = document.getElementById('search');
+		var send = document.getElementById('send');
+		send.addEventListener('click',function(){
+			window.location.href = "http://m.baidu.com/s?wd=" + search.value;
+		})
+		document.addEventListener('keydown',function(event){
+			if(event.keyCode == "13" &amp;&amp; !search.value == ""){
+				window.location.href = "http://m.baidu.com/s?wd=" + search.value;
+			}
+		})
+	</script>
+
+<span style="display:none">
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1272931017'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1272931017' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1272931017"><a href="https://www.cnzz.com/stat/website.php?web_id=1272931017" target="_blank" title="站长统计">站长统计</a></span><script src=" http://s13.cnzz.com/z_stat.php?id=1272931017" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1272931017&amp;t=z" charset="utf-8" type="text/javascript"></script>
+</span>
+
+</body></html>
