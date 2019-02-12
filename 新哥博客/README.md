@@ -4,8 +4,7 @@
  <span></span>
  <script>
 binduyan();
-</script>大家喜欢和你一起，是为了，显示他们的好看。
-            
+</script>   
 ❤
 
 👈左边侧滑是重点😜
