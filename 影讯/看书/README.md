@@ -14,29 +14,7 @@
 >
 > 6、【[吾爱中文网](http://m.5izww.com/)】
 >
-> 6、【[免费小说之王（小米）](https://reader.browser.duokan.com/v2/#tab=store/)】
+> 6、【[免费小说之王（小米）](https://fangsxin.github.io/dushu/%E6%96%B0%E5%93%A5%E5%8D%9A%E5%AE%A2/%E8%BF%9C%E7%A8%8B%E6%9B%B4%E6%8D%A2%E7%BD%91%E7%AB%99/%E7%9C%8B%E4%B9%A6/)】
 
 
 
-
-<!DOCTYPE html>
-
-<html>
-
-<head>
-
-<meta charset="utf-8">
-
-<title></title>
-
-</head>
-
-<body>
-
-<a href="http://php.cn/">点击这里<a>
-
-<button>点击这里</button></a>
-
-</body>
-
-</html>
