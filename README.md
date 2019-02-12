@@ -42,14 +42,6 @@
 
 ![](https://raw.githubusercontent.com/fangsxin/dushu/master/img/%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%85%B3%E6%B3%A8%20(2).png)
 
-<!-- 代码1：放在页面需要展示的位置  -->
-<!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
-<div id="zz" role="cylabs" data-use="reward"></div>
-<!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
-<!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
-<!-- 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 -->
-<script type="text/javascript" charset="utf-8" src="https://changyan.itc.cn/js/lib/jquery.js"></script>
-<script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cyu4X6hCo"></script>
 
 <!--PC和WAP自适应版-->
 <div id="SOHUCS" sid="test" ></div> 
