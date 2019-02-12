@@ -7,9 +7,6 @@
 binduyan();
 </script>   
 
-每日一句：<div class="ciba_ds_juzi">
-
-
 ❤
 
 👈左边侧滑是重点😜
