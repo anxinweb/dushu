@@ -1,0 +1,110 @@
+/*reset */
+*{ margin:0; padding:0;}
+body,input,textarea,select{font-size:16px;font-family:'微软雅黑',Arial, sans-serif;-webkit-appearance:none;}
+a {text-decoration: none; color:#212020}
+h1,h2,h3,h4,h5{ font-weight:normal;}
+fl{float:left;}
+fr{float:right;}
+ul{ list-style:none;}
+img{ border:none;}
+input{ border:none}
+em,i{ font-style:normal;}
+.nbor{ border: none!important;}
+.tc{ text-align:center}
+.tr{ text-align:right}
+.fr{ float:right}
+.fl{ float:left}
+.fs9{ font-size:9px}
+.fs12{ font-size:12px}
+.fs14{ font-size:14px}
+.fs18{ font-size:18px}
+.pl10{ padding-left:10px;}
+.mr10{ margin-right:10px;}
+.ml{ margin-left:0px !important;}
+.mt8{ margin-top:8px;}
+.mt3{ margin-top:3px;}
+.ml5{ margin-left:5px;}
+.mr3{ margin-right:3px;}
+.ml3{ margin-left:3px;}
+.c666{ color:#666;}
+.white{ color:#fff;}
+.h10{ height:10px; }
+.height5{ height:5px; }
+.borLeft3{ border-left:3px solid #FFF;}
+.borRight3{ border-right:3px solid #FFF;}
+
+.spanFengSe,.spanJuSe,.spanLanSe,.spanLuSe,.spanZiSe{padding:2px 4px; border-radius:3px; margin-right:10px; font-size:12px;}
+.spanFengSe{ border:1px solid #ff7659; color:#ff7659;}
+.spanJuSe{ border:1px solid #df9e03; color:#df9e03;}
+.spanLanSe{border:1px solid #41b9f5; color:#41b9f5;}
+.spanZiSe{border:1px solid #ce7dcb; color:#ce7dcb;}
+.spanLuSe{border:1px solid #36c770; color:#36c770;}
+
+.wrapper{ margin:0 auto; max-width:800px; min-width:320px;}
+
+.mkshou h2{ font-size:16px; height:35px; line-height:35px;}
+.mkshou h2 img{ margin-right:7px;}
+.mkshou li,.mkImgList_1 li{ padding:0 10px; border-bottom:1px solid #e9e9e9; clear:both; overflow:hidden;}
+.mkshou li p{ color:#999; font-size:13px; margin-bottom:10px}
+
+.mkImgList_1 li{ padding:10px 10px;}
+.mkImgList_1 h2{ font-size:15px; margin-bottom:2px;}   
+.mkImgList_1 p{ color:#999; font-size:13px;}
+
+
+/*顶部*/
+.top{ height:44px; line-height:44px; background:#ffffff; position: relative}
+.top p{ color:#ff0000; font-size:17px; padding-left:55px;}
+.top a{position:absolute;display: inline-block;}
+.topA{ height:44px; width:56px; border-right:0px solid #7ed761; left:0; top:0;}
+.topA img{ margin:11px 0 0 11px;}
+.topTx{ top:7px; right:50px;}
+.topRightImg{ height:44px; right:0px; top:0; width:40px;}
+.topRightImg img{ margin:13px 0 0 11px;}
+
+/*底部*/
+.foorNav{ background:#ffffff; height:35px; line-height:35px;}
+.foorNav a{ float:left; width:20%; text-align:center; color:#ff0000;}
+
+.foor{ padding-bottom:10px;background:#ffffff;}
+.foor p{ text-align:center; color:#ff0000; opacity:0.85; font-size:10px;}
+.foor a{ margin:0 5px;color:#ff0000; opacity:0.85}
+.foor .foorP1{ padding:13px 0; font-size:14px;}
+/*标题样式表*/
+.mkTitleTextBg{}
+.bor_2b{border-bottom:2px solid #36c770;}
+.mkTitle01,.mkTitle02{ overflow:hidden;  }
+.mkTitle01 span,.mkTitle02 span{height:28px; line-height:28px; background:#36c770;  display:inline-block}
+.mkTitle01 span,.mkTitle02 span{ padding:0 12px;}
+.mkTitle02 a,.mkTitle04 a{ font-size:14px; color:#5db380;}
+
+.mkTitle03{ background:#f7f7f7; height:34px; line-height:34px; border-top:1px solid #ededed;}
+.mkTitle03 span,.mkTitle08 span{ color:#36c770}
+
+.mkTitle04{ position:relative; }
+.mkTitle04 span{ position:absolute;top:7px; left:22px; }
+
+.mkTitle05{}
+.mkTitle05 span,.mkTitle06 span{ float:left; height:28px; line-height:28px; display:inline-block; background:#36c770; padding:0 10px; }
+
+.mkTitle06 span{  height:32px; line-height:32px; }
+
+.mkTitle07{ border-left:12px solid #36c770; margin-right:10px; background:#f5f5f5; height:38px; line-height:38px;}
+
+.mkTitle08{ height:30px; line-height:30px;}
+.mkTitle08 span{ color:#36c770}
+
+.mkTitle09{ position:relative; height:30px;}
+.mkTitle09 .title09Line{ height:14px; border-bottom:2px solid #b7b7b7;}
+.mkTitle09 p{ text-align:center;margin-top:-16px;}
+.mkTitle09 span{  height:30px; line-height:30px; background:#fff; display:inline-block; padding:0px 10px;}
+.mkTitle09 span i{background:#36c770; display:inline-block; padding:0px 10px; font-size:18px; color:#fff}
+
+.mkTitle10{ margin:0 auto; overflow:hidden; text-align:center;}
+.mkTitle10_item{display: inline-block;overflow:hidden;}
+.mkTitle10 img{ float:left;}
+.mkTitle10 span{ background:#36c770; float:left; display:inline-block; height:35px; line-height:35px; color:#fff;}
+
+
+}
+
