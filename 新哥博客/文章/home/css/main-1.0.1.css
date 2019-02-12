@@ -1,0 +1,186 @@
+/**{font-size:15px}*/
+article,aside,audio,body,dd,div,dl,footer,form,h1,h2,h3,h4,h5,h6,header,hr,iframe,input,label,menu,nav,ol,p,section,select,td,textarea,th,time,ul,video{margin:0;padding:0}
+article,aside,audio,canvas,footer,header,nav,section,video{display:block}
+input::-webkit-search-cancel-button{display:none}
+form{display:inline}
+input,select{font-family:"微软雅黑",Helvetica,STHeiti,Droid Sans Fallback}
+body{color:#333;word-wrap:break-word;font-size:100%;font-family:"微软雅黑",Helvetica,STHeiti,Droid Sans Fallback;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+textarea{resize:none;-webkit-appearance:none}
+iframe,img{border:0}
+ol,ul{list-style:none}
+h1,h2,h3,h4,h5,h6{color:#333;font-weight:400}
+input,label,select,textarea{outline:0;-webkit-user-modify:read-write-plaintext-only;-webkit-tap-highlight-color:transparent}
+label{-webkit-user-modify:read-only}
+input{border:none;background:0 0;-webkit-appearance:none}
+a{color:#333;text-decoration:none}
+select{-webkit-border-radius:0;border-radius:0;-webkit-border-image:none;-webkit-box-shadow:none;box-shadow:none;-webkit-appearance:none}
+i{font-style:inherit}
+hr{height:1px;border:none;background:#eee}
+.fl{float:left}
+.fr{float:right}
+.h5{clear:both;overflow:hidden;height:5px}
+.h7{clear:both;overflow:hidden;height:7px}
+.h10{clear:both;overflow:hidden;height:10px}
+.mt10{margin-top:10px}
+.h20{clear:both;overflow:hidden;height:20px}
+.df{display:box;display:flex;display:-webkit-box}
+.df_child{-webkit-box-flex:1;box-flex:1;flex:1}
+.nomp{margin:0!important;padding:0!important}
+.nobg{background:0 0!important}
+.nobr{border:none!important}
+.db{display:block!important}
+.nob{display:none!important}
+.orange{color:#ff9b05}
+.red{color:red!important}
+.clear{clear:both;overflow:hidden}
+.main{overflow:hidden;margin:0 auto;width:100%;max-width:800px;background:#fff;box-shadow:0 0 15px #ccc}
+.arrow,.arrow i,.arrow span{position:relative;display:block;width:0;height:0;border-top:1px none #000;border-right:8px solid transparent;border-bottom:8px solid #dbdbdb;border-left:8px solid transparent;line-height:0;-moz-border-bottom-colors:#dbdbdb}
+.arrow i,.arrow span{position:absolute;top:1px;left:-8px;border-bottom-color:#fff}
+.header{overflow:hidden;height:48px;background:#ff6803;color:#fff}
+.logo{float:left;display:inline-block;margin:16px 0 0 14px;width:104px;height:18px;background:url(http://sjgscdn.lexun.com/home/images/logo.png) no-repeat;background-size:104px 18px}
+.login{position:absolute;right:14px;bottom:6px;z-index:2}
+.login img{width:28px;height:28px;border-radius:100%}
+.phone,.shenzhen{float:right;padding:0 7px;height:19px;border-right:1px solid #ffa468;color:#fff;font-size:13px;line-height:16px;line-height:19px}
+.shenzhen{margin:16px 8px 0 0;padding:0 11px}
+.phone{position:relative;display:inline-block;overflow:hidden;margin:16px 0 0;padding-left:19px;max-width:68px;text-overflow:ellipsis;white-space:nowrap}
+@media screen and (min-width:480px){.phone{max-width:130px}
+}
+.phone .icon{position:absolute;top:0;left:0;display:inline-block;width:16px;height:19px;background:url(http://sjgscdn.lexun.com/home/images/icon_phone.png) no-repeat;background-size:16px 19px}
+.header_nav{padding-left:40px;height:35px;background:#fff1e5 url(http://sjgscdn.lexun.com/home/images/icon_header.png) no-repeat;background-size:auto 35px;color:#5b2c04;font-size:14px;line-height:35px}
+.header_nav a{margin-left:22px;color:#dc6702;font-style:oblique;font-size:12px}
+.classify{overflow:hidden;border-bottom: 1px #eee solid;}
+.classify li{float:left;padding:17px 0 16px;width:20%;text-align:center}
+.classify li span{display:block;margin:0 auto 7px;width:38px;height:38px;background-size:38px auto}
+.classify li h4{color:#666;font-size:12px}
+.line{height:5px;border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#ebebeb}
+.line1{height:9px;border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#ebebeb}
+.line2{height:12px;border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#ebebeb}
+.breadbox{position:relative}
+.bread{position:relative;overflow:hidden;height:49px;border-bottom:1px solid #e1e1e1}
+.bread .foc{-webkit-transform:rotateZ(90deg);-moz-transform:rotateZ(90deg);-o-transform:rotateZ(90deg);transform:rotateZ(90deg)}
+.bread a{padding-left:15px;color:#333;font-size:15px}
+.bread_k{position:absolute;top:0;right:0;z-index:1;padding:0!important;width:48px;height:49px;background:#fff url(http://sjgscdn.lexun.com/home/images/icon_openmore.png) no-repeat center;background-size:22px}
+.bread_bg{position:absolute;top:100px;left:0;z-index:8;display:none;width:100%;height:4000px;background:#000;opacity:.4}
+.bread_tab>div,.bread_tab>div a{white-space:nowrap}
+.bread_tab{overflow:hidden;overflow-x:scroll;padding:0 48px 0 0;height:49px;line-height:49px;-webkit-overflow-scrolling:touch}
+@media screen and (min-width:480px){.bread_tab{overflow-x:scroll}
+#divnav{overflow-x:inherit}
+}
+.bread_tab::-webkit-scrollbar{display:none}
+.bread_tab>div a{display:inline-block}
+.bread_tab>div a:first-child{color:#f70}
+.bread_tab>div a:last-child{padding-right:49px}
+.bread_tab>div a:last-child:after{width:0}
+.bread_list{overflow:hidden;padding-bottom:18px;text-align:center}
+.bread_list li{float:left;padding:18px 15px 0 15px}
+.bread_list li a{color:#777;font-size:15px}
+.bread_list1{overflow:hidden}
+.bread_list1 a{float:left;display:inline-block;margin-left:16px;color:#777;font-size:15px;line-height:44px}
+.bread_txt{padding-left:18px;background:#f7f7f7;font-size:16px;line-height:29px}
+.bread_txt span{position:relative;top:2px;display:inline-block;margin-right:6px;width:2px;height:15px;background:#ff6803}
+.bread_item{position:absolute;top:50px;left:0;z-index:9;width:100%;border-bottom:1px solid #acacac;background:#fff}
+.add,.add a{color:#525151;font-size:14px}
+.add{overflow:hidden;padding:0 12px;border-bottom:1px solid #efefef;line-height:35px}
+.add img{display:inline-block;margin-right:5px;vertical-align:-4px}
+.add .add_id,.add_id{float:right;color:#666;font-size:13px}
+.add_id img{margin:0 10px;vertical-align:middle}
+.text—cs,.text—cy,.text—dj,.text—djs,.text—rd,.text—rmhd,.text—tj,.text—xh,.text—zb,.text—zt{background:url(http://sjgscdn.lexun.com/home/images/icon_text.png) no-repeat;background-size:232px 50px}
+.text—cs,.text—cy,.text—dj,.text—djs,.text—rd,.text—rmhd,.text—tj,.text—xh,.text—zb,.text—zt{display:inline-block;margin-right:5px;width:29px;height:16px;vertical-align:middle}
+.text—tj{vertical-align:-2px}
+.text—xh{width:26px;height:15px;background-position:-31px 0;vertical-align:-2px}
+.text—rd,.text—zb{width:28px;height:15px;background-position:-59px 0}
+.text—zb{background-position:-89px 0;vertical-align:-2px}
+.text—rmhd{width:62px;height:22px;background-position:0 -28px}
+.text—cs{width:30px;height:17px;background-position:-156px 0}
+.text—zt{width:39px;height:22px;background-position:-70px -28px}
+.text—cy{width:31px;height:16px;background-position:-121px 0;vertical-align:-3px}
+.text—dj{width:36px;height:18px;background-position:-189px 0;vertical-align:-3px}
+.flag{display:inline-block;padding:1px 2px;border:1px solid #f70;color:#f70!important;font-size:12px;line-height:12px}
+.txt-chy,.txt-cs,.txt-hs,.txt-rmhd,.txt-tt,.txt-tt01,.txt-xh,.txt-zb{display:inline-block;display:inline-block;margin-right:3px;padding:2px 4px;background:#FF0101;color:#fff;vertical-align:middle;font-size:12px;font-family:黑体;line-height:12px}
+.txt-hs{background:#7e8795}
+.txt-tt01{background:#50ca5e}
+.txt-xh{background:#FF916F}
+.txt-zb{background:#60B2FF}
+.txt-rmhd{border:1px solid #FF7803;background:#fff;color:#FF7803}
+.txt-cs{background:#D781F7}
+.txt-chy{background:#F67F00}
+.br{border-radius:3px}
+.headerclient{overflow:hidden;height:48px;border-bottom:1px solid #ddd;background:#fff;color:#fff}
+.logoclient{float:left;display:inline-block;margin:14px 0 0 14px;width:120px;height:20px;background:url(http://sjgscdn.lexun.com/home/images/logoclient.png) no-repeat;background-size:120px 20px}
+.loginclient{float:right;margin:10px 14px 0 0}
+.header{position:relative;overflow:hidden;height:48px;border-bottom:1px solid #ddd;background:#ff7803;color:#fff}
+.header .item_search,.header_search input[type=submit]{position:absolute;right:65px;bottom:11px;display:block;width:25px;height:25px;background:url(http://sjgscdn.lexun.com/home/images/icon_search3.png) no-repeat;background-size:25px;cursor:pointer}
+.header_top{background:url(http://sjgscdn.lexun.com/home/images/icon_pic6.jpg) repeat-x top left;background-size:auto 360px}
+.header_top p{padding:0 20px;height:48px;background:url(http://sjgscdn.lexun.com/home/images/icon_pic5.jpg) repeat-x;background-size:auto 48px;line-height:48px}
+.header_top p span{display:block;background:url(http://sjgscdn.lexun.com/home/images/icon_pic3.png) no-repeat center right;background-size:14px 8px;color:#fff}
+.header_top .foc{background:0 0}
+.header_top .foc span{background:url(http://sjgscdn.lexun.com/home/images/icon_pic4.png) no-repeat center right;background-size:14px 8px}
+.header_top ul{overflow:hidden;padding-bottom:10px}
+.header_top ul li{float:left;width:20%;text-align:center;line-height:36px}
+.header_top ul li a{color:#fff;font-size:15px}
+.header_search{position:absolute;bottom:0;left:0;z-index:1;display:none;width:100%;height:48px;background:#ff7803}
+.header_search .item{display:box;display:flex;display:-webkit-box;height:48px}
+.header_search input[type=text]{display:block;margin:7px 55px 0 10px;padding-left:5px;height:33px;background:#fff;-webkit-box-flex:1;box-flex:1;flex:1}
+.header_search input[type=submit]{background:url(http://sjgscdn.lexun.com/home/images/icon_search2.png) no-repeat;background-size:25px}
+.header_search .item .close{display:inline-block;margin:16px 0 0 14px;width:16px;height:16px;background:url(http://sjgscdn.lexun.com/home/images/icon_close.png) no-repeat;background-size:16px;cursor:pointer}
+.Btnbox,.btnbox{padding:15px 12px;background:#fff}
+.btnbox{padding:0 12px 15px}
+.news_moreBtnbox{padding:10px;background:#eee}
+.news_moreBtn{display:block;overflow:hidden;height:36px;border:1px solid #d3d3d3;border-radius:2px;background:#fff;color:#666;text-align:center;font-size:15px;line-height:36px}
+.news_moreBtn img{display:inline-block;margin-left:5px;vertical-align:middle}
+.num{float:right;color:#aaa!important;font-size:12px!important}
+.num .eye{display:inline-block;padding-left:3px;width:15px;height:10px;background:url(http://sjgscdn.lexun.com/home/images/icon_eye.png) no-repeat;background-size:15px 10px;vertical-align:-1px}
+.num .flag{margin-left:5px}
+.footer{padding:14px 0 12px;background:#f70;color:#ffcbb8;text-align:center;font-size:13px}
+.footer p{margin-bottom:8px;font-size:19px;line-height:19px}
+.footer p a{margin:0 12px;color:#fff;font-size:16px}
+.footer_nav{height:44px;border-top:1px #e4e4e4 solid;background:#fcfcfc;color:#999;text-align:center;font-size:16px;line-height:44px}
+.footer_nav a{margin:0 17px;color:#999;font-size:16px}
+.footer_nav .cur{color:#f60}
+.foot{padding:10px}
+.foot p{color:#9d9d9d;text-align:center;font-size:11px;line-height:22px}
+.foot p a{margin:0 8px;color:#9d9d9d;font-size:11px}
+.foot p a img{margin-top:-3px;margin-right:5px;vertical-align:middle}
+.top{position:fixed;right:12px;bottom:90px;z-index:9999;width:36px;height:36px;background:url(http://sjgscdn.lexun.com/home/images/icon_top.png) no-repeat;background-size:36px;opacity:.5;cursor:pointer}
+.headerNav{padding:0 10px;height:44px;background:#f70;line-height:44px}
+.headerNav a{float:left;display:inline-block;overflow:hidden;padding:0 20px 0 10px;max-width:90px;background:url(http://sjgscdn.lexun.com/home/images/nav_line_a_bg.png) no-repeat right center;background-size:12px 44px;color:#fff;text-overflow:ellipsis;white-space:nowrap;font-weight:700}
+.headerNav .logo{margin-right:9px;padding:0;width:68px;background:url(http://sjgscdn.lexun.com/home/images/nav_logo.png) no-repeat center;background-size:68px 16px}
+.headerNav span{float:left;display:inline-block;width:1px;height:44px;background:url(http://sjgscdn.lexun.com/home/images/nav_line_img.png) no-repeat center;background-size:1px 44px}
+@media screen and (min-width:480px){.news_link li p{width:88%}
+.news_exclusive h4 i{max-width:94%}
+.search select{padding-left:5px}
+.header_top p{background:url(http://sjgscdn.lexun.com/home/images/icon_pic5.jpg) repeat-x;background-size:100%}
+.header_top{background:url(http://sjgscdn.lexun.com/home/images/icon_pic6.jpg) repeat-x top left;background-size:100%}
+.bread_tab{overflow-x:scroll}
+}
+.newsNum{position:absolute;top:-6px;right:-6px;display:inline-block;height:18px;max-width:25px;min-width:18px;border-radius:100px;background:#ff2a2a;color:#fff;text-align:center;font-size:10px;line-height:18px}
+ 
+.leShopping{position:relative;overflow:hidden}
+.leShopping .close{position:absolute;top:10px;right:10px;z-index:9;display:inline-block;width:17px;height:17px;background:url(http://sjgscdn.lexun.com/home/images/icon_leShopping03.png) no-repeat;background-size:17px}
+.leShopping img{display:block;width:100%}
+.leShopping_images02{position:relative;overflow:hidden}
+.leShopping_images02 .LStxt{position:absolute;bottom:0;left:0;padding-bottom:15px;width:100%;text-align:center}
+.LStxt .l{display:inline-block;margin-right:5px;width:21px;height:14px;background:url(http://sjgscdn.lexun.com/home/images/icon_txt2.png) no-repeat;background-size:21px 11px;vertical-align:middle}
+.LStxt .nums{display:inline-block;padding:4px 7px;border-radius:3px;background:#273247;color:#fff;vertical-align:middle;font-size:12px;line-height:12px}
+.LStxt .r{display:inline-block;margin:0 5px;width:112px;height:14px;background:url(http://sjgscdn.lexun.com/home/images/icon_txt1.png) no-repeat;background-size:112px 14px;vertical-align:-1px}
+.LStxt .item_btns{display:inline-block;width:72px;height:18px;background:url(http://sjgscdn.lexun.com/home/images/icon_btn.png) no-repeat;background-size:auto 18px;vertical-align:middle}
+ 
+.appAware{display:block;height:40px;font-size:13px;color:#666;padding:0 6px;line-height:40px;margin:5px;border-radius:2px}
+.appAware a{display:block}
+.appAware .appAware_lexun{vertical-align:middle;margin-right:5px;margin-top:-2px}
+.appAware .ljlq{float:right;font-size:12px;color:#fc522d;padding:0 4px;display:inline-block;height:20px;line-height:20px;border:1px #fc522d solid;border-radius:1px;margin-top:9px}
+.appAware img.appAward_logo{float:right;margin:3px -2px 0 0}
+
+.classify .lq span { background:url(http://sjgscdn.lexun.com/home/images/icon_circle.png); background-size:38px 38px;}
+.classify .sjgs span  { background:url(http://sjgscdn.lexun.com/home/images/icon_sjphone.png); background-size:38px 38px;}
+.classify .tzsc span { background:url(http://sjgscdn.lexun.com/home/images/icon_club.png); background-size:38px 38px;}
+.classify .wyx span { background:url(http://sjgscdn.lexun.com/home/images/icon_game.png); background-size:38px 38px;}
+.classify .nrh span { background:url(http://sjgscdn.lexun.com/home/images/icon_women.png); background-size:38px 38px;}
+
+/*bottom_link*/
+.bottom_link { background:#f8f8f8; padding:7px 0; overflow:hidden; border-top:2px solid #eee;}
+.bottom_link li { float:left; width:20%; text-align:center; padding:5px 0;}
+.bottom_link li a { font-size:16px;}
+.from{ padding:0 10px 0 0; border-right:1px solid #e6e6e6; }
+.from,.louzhu,.news_item .from,.news_item .louzhu{max-width:150px;}
+.louzhu{max-width:150px;padding-left:10px !important}
