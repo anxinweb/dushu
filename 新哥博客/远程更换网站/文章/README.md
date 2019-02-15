@@ -1,6 +1,6 @@
 //全局JS和网页控制
 
-【网站】https://fangsxin.github.io/blog/index【网站】
+【网站】https://fangsxin.github.io/blog/index.html【网站】
 
 //全局可以不用修改
 
