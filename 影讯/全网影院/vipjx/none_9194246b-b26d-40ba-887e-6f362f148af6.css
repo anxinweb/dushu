@@ -1,0 +1,378 @@
+@charset "utf-8";
+body,td,th {
+	font-family: XinGothic-SinaWeibo, "Microsoft YaHei", helvetica, arial, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+.STYLE1 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.STYLE2 {line-height: 180%; font-size: 15px; white-space: normal; font-family: "微软雅黑", sans-serif; background-color: #FFF; text-align: center; margin: 10px 0px;}
+.STYLE3 {font-size: 10px}
+body{ background: #f9f9f9 !important;}
+.clearfix:after{content:'';display:table;clear:both}
+/*header*/
+.articleHead .mainNav{ background: #f8f8f8; border-bottom: 1px solid #d8d8d8; border-top: none; font-weight:normal}
+.articleHead .backPrevPage{ margin: 5px 0 0 5px;background: url("all.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/all.html*//*tpa=http://images.wzbaixing.com.cn/other/all.html*/) no-repeat!important; background-size:100px auto!important;  background-position:7px 6px !important}
+.articleHead .center_tips{ overflow:hidden; *zoom:1; padding-right:43px; text-align:center;font-size:14px;color:#1a1a1a;}
+.articleHead .center_tips span{ color: #00a0fe;}
+.articleHead .user{ position: absolute; right: 45px; top: 6px; height: 30px; width: 30px; background: url("all.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/all.html*//*tpa=http://images.wzbaixing.com.cn/other/all.html*/) no-repeat; background-size:100px auto; background-position:-1px -372px; text-indent: 999em; overflow: hidden;}
+.articleHead .user a{ display: block; width: 30px; height: 30px; position: relative;}
+.articleHead .hv_msg{ position:absolute; top:0; right:0; width:6px; height:6px;  background:red; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;  box-shadow:0 0 3px #FFF;}
+.articleHead .user img{ display: block; height: 30px; line-height: 30px; width: 30px; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px;}
+.mainNav .navBtn {width:43px;height:43px;position:absolute;top:0px;right:0px;outline:none;text-indent: 999em; background: url("all.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/all.html*//*tpa=http://images.wzbaixing.com.cn/other/all.html*/) no-repeat; background-size:100px auto; background-position:11px -22px;}
+/*顶部评论框*/
+.input_wrap{ clear: both; overflow: hidden; *zoom:1; position: relative;}
+.discipline{font-size: 12px;color: #3990e6;padding-left: 12px;}
+a.input_smt{ display: block; width: 50px; height: 28px; line-height: 28px; text-align: center; color: #fff; font-size: 13px; background: #21acfd; float: right; margin-top: 8px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;}
+.input_area{ border: 1px solid #e2e2e2; -moz-border-radius: 4px; -webkit-border-radius:4px; border-radius:4px; padding:10px; min-height:20px; font-size: 14px; color: #777; background: #fff;}
+.input_area textarea{ display: block; width: 100%; border: none; height:20px;line-height: 20px}
+.input_area textarea.on{ height:100px; transition: 0.8s ease;-webkit-transition: 0.8s ease;}
+/*.input_area textarea:focus{ height:100px;transition: 0.8s ease;-webkit-transition: 0.8s ease;}*/
+.input_btm{ font-size: 12px; color: #666; height: 40px; line-height: 40px;border-bottom:1px solid #f0f0f0; padding-bottom:5px}
+.input_btm input{ margin-right: 8px; vertical-align: middle;}
+/*评论*/
+.cmnt_article{ clear: both; overflow: hidden; *zoom:1;  }
+.cmnt_title{ height: 24px; position: relative; margin: 5px 0;}
+.cmnt_title span{ display: block; position: absolute; left: -15px; top: 0; height: 24px; width: 72px; background: #21acfd; line-height: 24px; text-align: center; font-size: 12px; color: #fff;}
+.cmnt_item{ clear:both; overflow:hidden; *zoom:1; padding:0 0 12px 38px; border-bottom: 1px solid #f0f0f0; position: relative;}
+.cmnt_item:last-child{ border-bottom: none;}
+.cmnt_top{ clear:both; overflow:hidden; height:30px; line-height:30px; font-size:13px; color:#00a0fe; margin: 14px 0 -8px -38px;position: relative;}
+.cmnt_base .cmnt_top{ height:40px; line-height:24px; font-size:12px; margin: 0 0 2px; color:#333;}
+.cmnt_top span:first-child{ display: block; color:#3990e6; position: relative; padding-left: 38px; background: url("all.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/all.html*//*tpa=http://images.wzbaixing.com.cn/other/all.html*/) no-repeat; background-size:100px auto; background-position:0 -336px;}
+.cmnt_top .cmnt_source{ display: block; color: #999; font-size: 10px; height: 16px; line-height: 16px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+.cmnt_top .cmnt_nick{ display: block; height: 20px; line-height: 20px; font-style: normal; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+.cmnt_top .cmnt_nick em{ display:inline-block; font-size:10px; color:#aaa; margin-left:4px; font-style:normal}
+.phone{ display: inline-block; vertical-align: middle; width: 0;}
+.cmnt_top .cmnt_time{ display: block; height: 14px; line-height: 14px; font-size: 10px; color: #999; font-style: normal; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+.cmnt_base .cmnt_top span{ padding-left: 0; background: none; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+.cmnt_top span img{
+	position: absolute;
+	left: -2px;
+	top: 5px;
+	width: 30px;
+	height: 30px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+.cmnt_top code{ font-size:10px; color:#999; position: absolute; right: 0; top: 0; display: block; height: 24px; line-height: 24px; width: 45px; text-align: right;}
+.cmnt_top .editor{font-size: 9px;font-style:normal;line-height: 19px;padding: 0 10px 1px 21px; border: 1px solid #fe7358;border-radius: 10px;color:#fe7358;margin-left: 10px;background:url("all.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/all.html*//*tpa=http://images.wzbaixing.com.cn/other/all.html*/) no-repeat;background-size: 100px auto;  background-position: 9px -539px;}
+.cmnt_base .cmnt_top code{ font-size:12px; color:#8b8b7e; top: 7px; width: 30px; text-align: center;}
+.cmnt_text{ font-size:15px; line-height:20px; text-align:justify; color: #333; padding: 2px 0;  word-break:break-all; word-wrap:break-word; margin-top:2px;}
+.cmnt_quote{ font-size: 12px; color:#3990e6;padding:10px 5px; text-indent: 2em; background:#f2f2f2; margin:10px 0 0 0; clear:both;}
+.cmnt_text a{ margin-left: 10px; color: #5494EA; font-size: 12px;}
+.cmnt_op{ position: absolute; right: 0; top: 13px; display: block; height:16px; line-height:16px; text-align:right; overflow: visible;}
+.cmnt_op_all{ position: absolute; right: -284px; top:0; z-index: 9; background: rgba(54,62,71,0.95); width: 264px; text-align: center; height: 44px; line-height: 44px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; padding-left: 20px;}
+.cmnt_op a, .cmnt_op_all a{background:url("all.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/all.html*//*tpa=http://images.wzbaixing.com.cn/other/all.html*/) no-repeat; background-size:100px auto; color:#aaa}
+.cmnt_op a, .cmnt_op_all a{ display:inline-block; vertical-align: middle; height: 16px; line-height: 16px;}
+.cmnt_op_all a.pl{ background-position:-46px -69px; width: 16px; padding: 0 16px;}
+.cmnt_op_all a{ border-right: 1px solid #525960;}
+.cmnt_op_all a:last-child{ border: none;}
+.cmnt_op_all a.good{ padding-left: 22px; color:#fff; background-position: -60px -105px; font-size:12px; position: relative; padding-right: 16px;}
+.cmnt_op_all a.good.on{ background-position:0 -136px}
+.cmnt_op a.good{
+	padding-left: 20px;
+	color: #999;
+	background-position: 0 -105px;
+	font-size: 12px;
+	position: relative;
+	padding-right: 10px;
+	background-image: url("TB2x.pLaRTxQeBjSspoXXcP7XXa_!!2290165564.png"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/TB2x.pLaRTxQeBjSspoXXcP7XXa_!!2290165564.png*//*tpa=http://images.wzbaixing.com.cn/images/TB2x.pLaRTxQeBjSspoXXcP7XXa_%21%212290165564.png*/);
+}
+.cmnt_op a.good::after{ width: 1px; content: ''; display: inline-block; height: 14px; background: #dfdfdf; position: absolute; right: -1px; top: 1px;}
+.cmnt_op a.good.on{ background-position:0 -136px}
+.cmnt_op a.cmntico{
+	padding-left: 22px;
+	color: #aaa;
+	margin-left: 10px;
+	background-position: 0 -69px;
+	font-size: 12px;
+	position: relative;
+	padding-right: 5px;
+	background-image: url("TB2x.pLaRTxQeBjSspoXXcP7XXa_!!2290165564.png"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/TB2x.pLaRTxQeBjSspoXXcP7XXa_!!2290165564.png*//*tpa=http://images.wzbaixing.com.cn/images/TB2x.pLaRTxQeBjSspoXXcP7XXa_%21%212290165564.png*/);
+}
+.cmnt_op_all a.send{ background-position:-42px -167px; width: 16px; padding: 0 20px;}
+.cmnt_op_all a.fold{ background-position:20px -190px; width: 16px; padding: 0 20px;}
+.cmnt_op a.unfold{ width: 28px; background-position:-50px -190px;}
+.cmnt_op .fly, .cmnt_op_all .fly{ position: absolute; display: inline-block; background: url("all.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/all.html*//*tpa=http://images.wzbaixing.com.cn/other/all.html*/) no-repeat; background-size: 100px auto; background-position: 0 -140px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;
+animation:flying 0.6s;
+-moz-animation:flying 0.6s; /* Firefox */
+-webkit-animation:flying 0.6s; /* Safari and Chrome */
+-o-animation:flying 0.6s; /* Opera */
+animation-fill-mode: forwards;
+-moz-animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;
+-o-animation-fill-mode: forwards;
+}
+@keyframes flying {
+	0% { background-size: 100px auto; background-position: 0 -136px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;}
+	100% { background-size: 200px auto; background-position: 0 -204px; width: 32px; height: 32px; left: -8px; top: -16px; opacity: 0;}
+}
+@-moz-keyframes flying {
+	0% { background-size: 100px auto; background-position: 0 -136px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;}
+	100% { background-size: 200px auto; background-position: 0 -272px; width: 32px; height: 32px; left: -8px; top: -16px; opacity: 0;}
+}
+@-webkit-keyframes flying {
+	0% { background-size: 100px auto; background-position: 0 -136px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;}
+	100% { background-size: 200px auto; background-position: 0 -272px; width: 32px; height: 32px; left: -8px; top: -16px; opacity: 0;}
+}
+@-o-keyframes flying {
+	0% { background-size: 100px auto; background-position: 0 -136px; width: 16px; height: 16px; left: 0; top: 0; opacity: 1;}
+	100% { background-size: 200px auto; background-position: 0 -272px; width: 32px; height: 32px; left: -8px; top: -16px; opacity: 0;}
+}
+.fadeIn{
+animation:fadeIn 0.4s;
+-moz-animation:fadeIn 0.4s; /* Firefox */
+-webkit-animation:fadeIn 0.4s; /* Safari and Chrome */
+-o-animation:fadeIn 0.4s; /* Opera */
+animation-fill-mode: forwards;
+-moz-animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;
+-o-animation-fill-mode: forwards;
+}
+@keyframes fadeIn
+{
+0%   {right: -284px;}
+100% {right: 0;}
+}
+@-moz-keyframes fadeIn /* Firefox */
+{
+0%   {right: -284px;}
+100% {right: 0;}
+}
+@-webkit-keyframes fadeIn /* Safari 和 Chrome */
+{
+0%   {right: -284px;}
+100% {right: 0;}
+}
+@-o-keyframes fadeIn /* Opera */
+{
+0%   {right: -284px;}
+100% {right: 0;}
+}
+.fadeOut{
+animation:fadeOut 0.4s;
+-moz-animation:fadeOut 0.4s; /* Firefox */
+-webkit-animation:fadeOut 0.4s; /* Safari and Chrome */
+-o-animation:fadeIn 0.4s; /* Opera */
+animation-fill-mode: forwards;
+-moz-animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;
+-o-animation-fill-mode: forwards;
+}
+@keyframes fadeOut
+{
+0%   {right: 0;}
+100% {right: -284px;}
+}
+@-moz-keyframes fadeOut /* Firefox */
+{
+0%   {right: 0;}
+100% {right: -284px;}
+}
+@-webkit-keyframes fadeOut /* Safari 和 Chrome */
+{
+0%   {right: 0;}
+100% {right: -284px;}
+}
+@-o-keyframes fadeOut /* Opera */
+{
+0%   {right: 0;}
+100% {right: -284px;}
+}
+.cmnt_tit{ line-height: 18px; font-size: 12px; margin-bottom: 13px;}
+.cmnt_tit a{ color: #00a0fe; padding: 0 10px;}
+.cmnt_base{ clear: both; overflow: hidden; *zoom:1; padding: 0 4px; border: 1px solid #e8e8de; margin: 4px 0; background: #fdfdf6;}
+.cmnt_base.nobd{ border: none; margin: 0; padding: 0;}
+.cmnt_base.nomg{ margin: 0;}
+.cmnt_base .cmnt_top{ padding: 5px 30px 0 5px;}
+.cmnt_base .cmnt_text{ margin: 0 5px 5px; color:#5d5d5d; font-size:14px}
+.cmnt_base .cmnt_quote{ font-size: 12px; color:#3990e6;padding:10px 5px;  background:#f2f2f2; margin:0 0 5px 0; clear: both; text-indent: 2em;}
+.cmnt_quote a{ color:#3990e6;}
+a.cmnt_unfold{ display: block; width: 100%; height: 36px; text-align: center; line-height: 36px; color: #8b8b7e; border-bottom:1px solid #e8e8de; background: #fdfdf6; font-size: 14px; padding-bottom:4px}
+.cmnt_unfold i{ display: inline-block; width: 20px; height: 14px; background: url("all.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/all.html*//*tpa=http://images.wzbaixing.com.cn/other/all.html*/) no-repeat; background-size: 100px auto; background-position: 0 -420px; vertical-align: middle;}
+.cmnt_extra{ border: 1px solid #e8e8de; border-top: none; }
+.loadingArt{
+display:block; vertical-align:middle;
+margin:5px auto;
+height:30px; width:30px;
+background:url("loading_40.40.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/loading_40.40.html*//*tpa=http://images.wzbaixing.com.cn/other/loading_40.40.html*/) 0 0 no-repeat;
+background-position:0 100%;
+background-size:30px auto;
+animation-name:loading;
+animation-duration:1s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+-moz-animation-name:loading;
+-moz-animation-duration:1s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-timing-function:linear;
+-webkit-animation-name:loading;
+-webkit-animation-duration:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-timing-function:linear;
+-o-animation-name:loading;
+-o-animation-duration:1s;
+-o-animation-iteration-count:infinite;
+-o-animation-timing-function:linear;
+}
+@keyframes loading {
+	from { transform:rotate(0deg) translateZ(0);}
+	to { transform:rotate(360deg) translateZ(0);}
+}
+@-moz-keyframes loading {
+	from { -moz-transform:rotate(0deg) translateZ(0);}
+	to { -moz-transform:rotate(360deg) translateZ(0);}
+}
+@-webkit-keyframes loading {
+	from { -webkit-transform:rotate(0deg) translateZ(0);}
+	to { -webkit-transform:rotate(360deg) translateZ(0);}
+}
+@-o-keyframes loading {
+	from { -o-transform:rotate(0deg) translateZ(0);}
+	to { -o-transform:rotate(360deg) translateZ(0);}
+}
+.op_remind{ position: fixed; top: 0; left: 0; display: none; z-index: 999; opacity: 0; width: 100%; height: 44px; line-height: 44px; font-size: 14px; text-align: center; color: #fff; background: rgba(68,68,68,.9);}
+@keyframes myfirst
+{
+0%   {opacity: 0;}
+50%  {opacity: 1;}
+100% {opacity: 0;}
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {opacity: 0;}
+50%  {opacity: 1;}
+100% {opacity: 0;}
+}
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+0%   {opacity: 0;}
+50%  {opacity: 1;}
+100% {opacity: 0;}
+}
+@-o-keyframes myfirst /* Opera */
+{
+0%   {opacity: 0;}
+50%  {opacity: 1;}
+100% {opacity: 0;}
+}
+.animate{
+animation:myfirst 3s;
+-moz-animation:myfirst 3s; /* Firefox */
+-webkit-animation:myfirst 3s; /* Safari and Chrome */
+-o-animation:myfirst 3s; /* Opera */
+}
+/*浮标提示*/
+.j_float_remind{ position: fixed; z-index: 9; opacity: 1; left: 0; top: 49px; height: 24px; width: 72px; background: #21acfd; line-height: 24px; text-align: center; font-size: 12px; color: #fff;}
+/*无结果提示*/
+.list_empty{ font-size: 16px; color: #666; min-height: 30px; line-height: 30px; text-align: center; margin: 40px 20px 20px;}
+.fade{ opacity: 0;}
+/*评论活动*/
+.winner_tips{ font-size:14px; border-bottom:1px solid #f0f0f0; border-top:1px solid #f0f0f0; margin:5px 0; height:40px; line-height:40px; background:url("lw.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/lw.html*//*tpa=http://images.wzbaixing.com.cn/other/lw.html*/) no-repeat 4px 7px; background-size:24px auto; padding-left:36px}
+.winner_tips a{ color:#3990e6;}
+.winner_tips span{ color:#f22f6d}
+.cmnt_op_bottom{ clear:both; font-size:10px;margin-top:8px; margin-bottom:4px; position:relative; color:#aaa}
+.cmnt_op_bottom_times{ float:left; line-height:16px;}
+.cmnt_op{ position: absolute; right: 0; top: 0; display: block; height:16px; line-height:16px; text-align:right; overflow: visible;}
+.cmnt_op_bottom_report{float:left; line-height:16px; padding-left: 12px; color:#aaa;}
+.cmnt_op_bottom_report.on{color:#d2d2d2;}
+/*公共加载更多*/
+.more_btnbox{ clear:both; overflow:hidden}
+.more_btn{ clear:both; height:32px; line-height:32px; text-align:center; font-size:14px; border:1px solid #f9f9f9; margin:0 6px 12px;-webkit-border-radius:4px;border-radius:4px;
+-moz-box-shadow:inset 0px 1px 0px #fff;
+-webkit-box-shadow:inset 0px 1px 0px #fff;
+}
+.more_btn span,.more_btn a{ display:block; cursor:pointer}
+.more_btn_loading{ clear:both; margin:0 6px 12px; text-align:center}
+.loadingbtn{margin:2px 0;display:inline-block; vertical-align:middle;height:30px; width:30px; overflow:hidden; text-indent:999em; line-height:30px;
+background:url("loading_40.40.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/loading_40.40.html*//*tpa=http://images.wzbaixing.com.cn/other/loading_40.40.html*/) 0 0 no-repeat;
+background-position:0 100%;
+background-size:30px auto;
+-webkit-animation-name:loading;
+-webkit-animation-duration:1s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-timing-function:linear;
+}
+@-webkit-keyframes loading {
+	from { -webkit-transform:rotate(0deg) translateZ(0);}
+	to { -webkit-transform:rotate(360deg) translateZ(0);}
+}
+.cmnt_more{ height: 6px; border-bottom: 1px solid #d8d8d8; margin: 10px 0 23px; overflow: visible; position: relative;}
+.cmnt_more a,.cmnt_more span{ display: inline-block; font-size: 12px; color: #00a0fe; padding: 0 12px; width:88px; height: 20px; line-height: 20px; background: #f8f8f8; position: absolute; left: 50%; top:-4px; margin-left: -56px; text-align:center}
+.cmnt_more span{ color:#666}
+/*loader动画*/
+/*
+.pullLoader{height:52px ; overflow: hidden;}
+.loader{ clear:both; overflow:hidden; text-align:center; height:52px; padding-top:8px; display: none}
+.loader.show{ display:block}
+.loader p{font-size:12px; color:#505050;}
+.loader span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50px;
+}
+.loader span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    background: #3990e6;
+    border-radius: 50px;
+    -webkit-animation: loader 1s infinite alternate;
+    -moz-animation: loader 1s infinite alternate;
+}
+@-webkit-keyframes loader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.1;
+    }
+}
+@-moz-keyframes loader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.1;
+    }
+}
+.loader span:nth-of-type(2) {
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+}
+.loader span:nth-of-type(3) {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+}
+.loader span:nth-of-type(4) {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+}
+.loader span:nth-of-type(5) {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+}*/
+/*举报*/
+.comment_report{ position: fixed;top: 40%;left: 50%;margin-left: -80px; z-index: 999;height: 50px; width: 160px; line-height: 50px;font-size: 14px;text-align: center;color: #fff;background: rgba(68,68,68,.9); border-radius: 6px;}
+.report_box{text-align: center; position: fixed; top: 0; left: 0; right: 0; z-index: 900;}
+.report_box .report_title{height: 45px; line-height: 45px;  font-size: 14px; background: #f8f8f8; font-weight: normal;}
+.report_box .report_reason{ color: #999; font-size: 12px; height: 32px; line-height: 32px; display: block; background: #f3f3f3; border-top: 1px solid #d5d5d5; }
+.report_box .report_select_box{border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; padding: 0 12px; background: #fff;}
+.report_select_box a{display: block; padding:0 12px; border-bottom: 1px solid #e8e8e8; height: 40px; line-height: 40px; text-align: left;}
+.report_select_box a.on{background: url("all.html"/*tpa=http://www.xyjun.com/vip/jiaocheng/css/all.html*//*tpa=http://images.wzbaixing.com.cn/other/all.html*/) no-repeat; background-size:100px auto;  background-position: right -497px;}
+.report_select_box a:last-child{border: none;}
+.report_btn_box{padding: 15px 12px; clear: both; overflow: hidden; background: #f9f9f9;}
+.report_btn_box a{ display: block; width: 60px; height: 30px; line-height: 30px; font-size: 14px; }
+.report_btn_box .report_cancel{color: #666666;background: #eeeeee;}
+.report_btn_box .report_smt{color:#ffffff; background: #5494ea;}
+.report_smt.off {color: #666666;background: #eeeeee;}
+.report_bg{position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 500; background: rgba(0,0,0,.6) }
+.transparent{ position: absolute; top: 0; left: 0; height: 90px; width: 100%; }
