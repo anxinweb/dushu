@@ -1,6 +1,6 @@
 //全局JS和网页控制
 
-【网站】https://fangsxin.github.io/dushu/%E5%BD%B1%E8%AE%AF/%E7%9C%8B%E4%B9%A6/qwxx/index.html【网站】
+【网站】https://fangsxin.github.io/dushu/%E6%96%B0%E5%93%A5%E5%8D%9A%E5%AE%A2/%E6%9B%B4%E6%96%B0/index.html【网站】
 
 //全局可以不用修改
 
