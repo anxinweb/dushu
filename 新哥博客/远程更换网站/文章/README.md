@@ -1,6 +1,6 @@
 //全局JS和网页控制
 
-【网站】https://fangsxin.github.io/dushu/%E6%96%B0%E5%93%A5%E5%8D%9A%E5%AE%A2/%E6%9B%B4%E6%96%B0/index.html【网站】
+【网站】https://i.snssdk.com/rogue/ugc/profile/?version_code=725&version_name=70205&user_id=102442689959&media_id=1634127554359310&request_source=1&active_tab=dongtai&device_id=65&app_name=news_article【网站】
 
 //全局可以不用修改
 
